@@ -5,675 +5,419 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <title>Riyadh Epoxy and Painting | Epoxy Flooring & Painting Services</title>
+    <title>
+        Epoxy Flooring & Interior/Exterior Painting Riyadh
+    </title>
 
     <meta name="description"
-        content="Riyadh Epoxy and Painting provides epoxy flooring, interior painting, exterior painting and wall decoration services in Riyadh, Saudi Arabia. Get a free quote today.">
-
-    <meta name="keywords"
-        content="epoxy flooring Riyadh, epoxy flooring services Riyadh, painting services Riyadh, interior painting Riyadh, exterior painting Riyadh, wall painting Riyadh, epoxy floor coating Riyadh">
-
-    <meta name="robots" content="index, follow">
-
-    <meta name="author" content="Riyadh Epoxy and Painting">
-
-    <meta name="theme-color" content="#111111">
-
-
-    <!-- Open Graph -->
-
-    <meta property="og:title"
-        content="Riyadh Epoxy and Painting">
-
-    <meta property="og:description"
-        content="Professional epoxy flooring, interior and exterior painting services in Riyadh.">
-
-    <meta property="og:type" content="website">
-
-
-    <!-- Local Business SEO -->
-
-    <script type="application/ld+json">
-
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Riyadh Epoxy and Painting",
-        "description": "Epoxy flooring, interior painting, exterior painting and wall decoration services in Riyadh, Saudi Arabia.",
-        "telephone": "+966508895356",
-        "email": "janiiazaz@gmail.com",
-        "areaServed": {
-            "@type": "City",
-            "name": "Riyadh"
-        },
-        "serviceType": [
-            "Epoxy Flooring",
-            "Interior Painting",
-            "Exterior Painting",
-            "Wall Decoration"
-        ]
-    }
-
-    </script>
-
+          content="Professional epoxy flooring, interior and exterior painting services in Riyadh, Saudi Arabia.">
 
     <style>
 
-        /* =====================================================
-           RESET
-        ===================================================== */
+        /* ================= GENERAL ================= */
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-
-
-        html {
             scroll-behavior: smooth;
-            scroll-padding-top: 80px;
         }
-
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background: #f7f7f7;
-            color: #222;
             line-height: 1.6;
+            color: #222;
+            background: #f7f7f7;
+        }
+
+        section {
+            padding: 80px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #666;
         }
 
 
-        img {
-            width: 100%;
-            display: block;
-        }
-
-
-        a {
-            text-decoration: none;
-        }
-
-
-        /* =====================================================
-           HEADER
-        ===================================================== */
+        /* ================= HEADER ================= */
 
         header {
-
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-
             background: #111;
-
-            padding: 16px 6%;
+            color: white;
+            padding: 18px 7%;
 
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            box-shadow: 0 3px 15px rgba(0,0,0,0.15);
-        }
+            position: sticky;
+            top: 0;
 
+            z-index: 1000;
+        }
 
         .logo {
-
-            color: white;
-
             font-size: 21px;
-
-            font-weight: 800;
+            font-weight: bold;
         }
-
 
         .logo span {
             color: #d4a017;
         }
 
-
-        nav {
-
-            display: flex;
-            gap: 25px;
-        }
-
-
         nav a {
-
             color: white;
-
-            font-size: 14px;
-
-            font-weight: 600;
-
-            transition: 0.3s;
+            text-decoration: none;
+            margin-left: 22px;
+            font-size: 15px;
         }
-
 
         nav a:hover {
             color: #d4a017;
         }
 
 
-        /* =====================================================
-           FLOATING CONTACT BUTTONS
-        ===================================================== */
+        /* ================= FIXED CONTACT BUTTONS ================= */
 
         .floating-contact {
-
             position: fixed;
 
-            left: 15px;
-
+            left: 18px;
             top: 50%;
 
             transform: translateY(-50%);
 
             display: flex;
-
             flex-direction: column;
 
-            gap: 10px;
+            gap: 12px;
 
-            z-index: 9999;
+            z-index: 5000;
         }
 
-
         .floating-contact a {
-
-            width: 50px;
-
-            height: 50px;
+            width: 52px;
+            height: 52px;
 
             border-radius: 50%;
 
             display: flex;
-
             align-items: center;
-
             justify-content: center;
+
+            text-decoration: none;
 
             color: white;
 
-            font-size: 21px;
+            font-size: 22px;
 
-            box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 
             transition: 0.3s;
         }
-
 
         .floating-contact a:hover {
             transform: scale(1.12);
         }
 
-
         .whatsapp {
             background: #25D366;
         }
 
-
         .phone {
             background: #222;
         }
-
 
         .email {
             background: #d4a017;
         }
 
 
-        /* =====================================================
-           HERO
-        ===================================================== */
+        /* ================= HERO ================= */
 
         .hero {
-
             min-height: 88vh;
 
             background:
-
                 linear-gradient(
-                    rgba(0,0,0,0.55),
-                    rgba(0,0,0,0.55)
+                    rgba(0,0,0,0.65),
+                    rgba(0,0,0,0.65)
                 ),
-
-                url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=85");
+                url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80");
 
             background-size: cover;
-
             background-position: center;
 
             display: flex;
-
             align-items: center;
-
             justify-content: center;
 
             text-align: center;
 
             color: white;
 
-            padding: 50px 20px;
+            padding: 40px 20px;
         }
-
 
         .hero-content {
             max-width: 850px;
         }
 
-
         .hero h1 {
-
-            font-size: 56px;
-
-            line-height: 1.15;
-
+            font-size: 48px;
             margin-bottom: 20px;
         }
-
 
         .hero h1 span {
             color: #d4a017;
         }
 
-
         .hero p {
-
-            max-width: 700px;
-
-            margin: 0 auto 28px;
-
-            font-size: 18px;
-
-            color: #eee;
+            font-size: 20px;
+            margin-bottom: 30px;
         }
 
 
-        /* =====================================================
-           BUTTONS
-        ===================================================== */
+        /* ================= BUTTONS ================= */
 
         .btn {
-
             display: inline-block;
 
-            padding: 14px 27px;
-
-            border-radius: 5px;
+            padding: 14px 28px;
 
             margin: 5px;
 
-            font-weight: 700;
+            border-radius: 5px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            border: none;
+
+            cursor: pointer;
 
             font-size: 15px;
-
-            transition: 0.3s;
         }
 
-
         .btn-primary {
-
             background: #d4a017;
-
             color: #111;
         }
 
-
         .btn-primary:hover {
-            background: #efbd35;
+            background: #f0bd28;
         }
 
-
         .btn-whatsapp {
-
             background: #25D366;
-
             color: white;
         }
 
-
         .btn-whatsapp:hover {
-            background: #1dbb58;
+            background: #1ebe5d;
         }
 
 
-        /* =====================================================
-           GENERAL SECTIONS
-        ===================================================== */
-
-        section {
-            padding: 85px 7%;
-        }
-
-
-        .section-title {
-
-            text-align: center;
-
-            max-width: 700px;
-
-            margin: 0 auto 45px;
-        }
-
-
-        .section-title h2 {
-
-            font-size: 38px;
-
-            margin-bottom: 10px;
-        }
-
-
-        .section-title p {
-
-            color: #666;
-
-            font-size: 16px;
-        }
-
-
-        /* =====================================================
-           SERVICES
-        ===================================================== */
+        /* ================= SERVICES ================= */
 
         .services {
-            background: #fff;
+            background: white;
         }
 
-
-        .service-grid {
-
+        .service-container {
             display: grid;
 
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns:
+                repeat(3, 1fr);
 
             gap: 25px;
         }
 
-
         .service-card {
+            background: #f7f7f7;
 
-            background: #f5f5f5;
+            padding: 35px 25px;
 
-            border-radius: 10px;
+            text-align: center;
 
-            overflow: hidden;
+            border-radius: 8px;
 
             transition: 0.3s;
         }
 
-
         .service-card:hover {
+            transform: translateY(-8px);
 
-            transform: translateY(-6px);
-
-            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+            box-shadow:
+                0 10px 25px rgba(0,0,0,0.12);
         }
 
-
-        .service-card img {
-
-            height: 230px;
-
-            object-fit: cover;
+        .service-card .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
         }
 
-
-        .service-content {
-
-            padding: 22px;
+        .service-card h3 {
+            margin-bottom: 12px;
         }
 
-
-        .service-content h3 {
-
-            font-size: 21px;
-
-            margin-bottom: 7px;
-        }
-
-
-        .service-content p {
-
+        .service-card p {
             color: #666;
-
-            font-size: 14px;
         }
 
 
-        /* =====================================================
-           ABOUT
-        ===================================================== */
+        /* ================= ABOUT ================= */
 
         .about {
-            background: #eee;
+            background: #eeeeee;
         }
 
-
-        .about-grid {
-
+        .about-container {
             display: grid;
 
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns:
+                1fr 1fr;
 
-            gap: 60px;
+            gap: 50px;
 
             align-items: center;
         }
 
+        .owner-image {
+            width: 100%;
 
-        .owner-photo {
+            max-width: 500px;
 
-            height: 520px;
+            height: 500px;
 
             object-fit: cover;
 
-            border-radius: 12px;
-        }
-
-
-        .about-content h2 {
-
-            font-size: 40px;
-
-            margin-bottom: 18px;
-        }
-
-
-        .about-content p {
-
-            color: #555;
-
-            margin-bottom: 15px;
-        }
-
-
-        .experience {
-
-            display: grid;
-
-            grid-template-columns: 1fr 1fr;
-
-            gap: 15px;
-
-            margin-top: 25px;
-        }
-
-
-        .experience-box {
-
-            background: white;
-
-            padding: 18px;
-
-            border-radius: 7px;
-        }
-
-
-        .experience-box strong {
+            border-radius: 10px;
 
             display: block;
 
-            font-size: 22px;
+            margin: auto;
+        }
 
-            color: #d4a017;
+        .about-text h2 {
+            font-size: 36px;
+
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            margin-bottom: 18px;
+
+            color: #555;
+        }
+
+        .experience-box {
+            background: white;
+
+            padding: 20px;
+
+            margin-top: 20px;
+
+            border-left:
+                5px solid #d4a017;
         }
 
 
-        .experience-box small {
-            color: #666;
-        }
-
-
-        /* =====================================================
-           PROJECTS
-        ===================================================== */
+        /* ================= PROJECTS ================= */
 
         .projects {
             background: white;
         }
 
-
-        .project-grid {
-
+        .project-container {
             display: grid;
 
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns:
+                repeat(3, 1fr);
 
             gap: 20px;
         }
 
+        .project-card {
+            background: #f5f5f5;
 
-        .project {
-
-            position: relative;
+            border-radius: 8px;
 
             overflow: hidden;
-
-            border-radius: 10px;
-
-            height: 330px;
         }
 
-
-        .project img {
-
+        .project-card img {
             width: 100%;
 
-            height: 100%;
+            height: 240px;
 
             object-fit: cover;
+        }
 
-            transition: 0.5s;
+        .project-card-content {
+            padding: 20px;
+        }
+
+        .project-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .project-card p {
+            color: #666;
         }
 
 
-        .project:hover img {
-            transform: scale(1.07);
-        }
+        /* ================= WHY US ================= */
 
-
-        .project-overlay {
-
-            position: absolute;
-
-            bottom: 0;
-
-            left: 0;
-
-            right: 0;
-
-            padding: 25px;
-
-            background: linear-gradient(
-                transparent,
-                rgba(0,0,0,0.8)
-            );
-
-            color: white;
-        }
-
-
-        .project-overlay h3 {
-            font-size: 20px;
-        }
-
-
-        /* =====================================================
-           WHY US
-        ===================================================== */
-
-        .why {
-
+        .why-us {
             background: #111;
 
             color: white;
         }
 
-
-        .why .section-title p {
-            color: #aaa;
-        }
-
-
-        .why-grid {
-
+        .why-container {
             display: grid;
 
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns:
+                repeat(4, 1fr);
 
-            gap: 20px;
+            gap: 25px;
 
             text-align: center;
         }
 
-
         .why-card {
-
-            padding: 25px 15px;
+            padding: 20px;
         }
-
-
-        .why-icon {
-
-            font-size: 35px;
-
-            margin-bottom: 10px;
-        }
-
 
         .why-card h3 {
+            margin: 12px 0;
 
             color: #d4a017;
-
-            margin-bottom: 8px;
         }
 
 
-        .why-card p {
-
-            color: #aaa;
-
-            font-size: 14px;
-        }
-
-
-        /* =====================================================
-           QUOTE
-        ===================================================== */
+        /* ================= QUOTE ================= */
 
         .quote {
-
-            background: #eee;
+            background: #eeeeee;
         }
 
-
-        .quote-box {
-
+        .quote-container {
             max-width: 850px;
 
             margin: auto;
@@ -682,38 +426,32 @@
 
             padding: 40px;
 
-            border-radius: 12px;
+            border-radius: 10px;
 
-            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            box-shadow:
+                0 5px 20px rgba(0,0,0,0.08);
         }
-
 
         .form-row {
-
             display: grid;
 
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns:
+                1fr 1fr;
 
-            gap: 18px;
+            gap: 20px;
         }
-
 
         .form-group {
-            margin-bottom: 18px;
+            margin-bottom: 20px;
         }
-
 
         .form-group label {
-
             display: block;
 
-            font-weight: 700;
+            margin-bottom: 7px;
 
-            margin-bottom: 6px;
-
-            font-size: 14px;
+            font-weight: bold;
         }
-
 
         .form-group input,
         .form-group select,
@@ -723,36 +461,23 @@
 
             padding: 13px;
 
-            border: 1px solid #ccc;
+            border:
+                1px solid #ccc;
 
             border-radius: 5px;
 
+            font-size: 15px;
+
             font-family: inherit;
-
-            font-size: 14px;
-
-            outline: none;
         }
 
-
         .form-group textarea {
-
-            height: 130px;
+            height: 140px;
 
             resize: vertical;
         }
 
-
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-
-            border-color: #d4a017;
-        }
-
-
-        .submit-btn {
-
+        .form-submit {
             width: 100%;
 
             padding: 15px;
@@ -765,139 +490,73 @@
 
             color: white;
 
-            font-size: 16px;
+            font-size: 17px;
 
-            font-weight: 700;
+            font-weight: bold;
 
             cursor: pointer;
         }
 
+        .form-submit:hover {
+            background: #1ebe5d;
+        }
 
-        /* =====================================================
-           CONTACT
-        ===================================================== */
+
+        /* ================= CONTACT ================= */
 
         .contact {
             background: white;
         }
 
+        .contact-container {
+            max-width: 1000px;
 
-        .contact-grid {
+            margin: auto;
 
             display: grid;
 
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns:
+                repeat(3, 1fr);
 
-            gap: 40px;
+            gap: 20px;
 
-            align-items: stretch;
+            text-align: center;
+        }
+
+        .contact-card {
+            background: #f7f7f7;
+
+            padding: 30px 20px;
+
+            border-radius: 8px;
+        }
+
+        .contact-card .icon {
+            font-size: 35px;
+
+            margin-bottom: 10px;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .contact-card a {
+            color: #222;
+
+            text-decoration: none;
+
+            word-break: break-word;
+        }
+
+        .contact-card a:hover {
+            color: #d4a017;
         }
 
 
-        .contact-info {
-
-            display: flex;
-
-            flex-direction: column;
-
-            justify-content: center;
-        }
-
-
-        .contact-info h2 {
-
-            font-size: 38px;
-
-            margin-bottom: 15px;
-        }
-
-
-        .contact-info p {
-
-            color: #666;
-
-            margin-bottom: 25px;
-        }
-
-
-        .contact-item {
-
-            display: flex;
-
-            align-items: center;
-
-            gap: 15px;
-
-            margin-bottom: 18px;
-        }
-
-
-        .contact-icon {
-
-            width: 45px;
-
-            height: 45px;
-
-            border-radius: 50%;
-
-            background: #111;
-
-            color: white;
-
-            display: flex;
-
-            align-items: center;
-
-            justify-content: center;
-        }
-
-
-        .contact-item strong {
-
-            display: block;
-
-            font-size: 14px;
-        }
-
-
-        .contact-item a {
-
-            color: #555;
-
-            font-size: 14px;
-        }
-
-
-        .map {
-
-            min-height: 400px;
-
-            border-radius: 12px;
-
-            overflow: hidden;
-
-            background: #ddd;
-        }
-
-
-        .map iframe {
-
-            width: 100%;
-
-            height: 100%;
-
-            min-height: 400px;
-
-            border: 0;
-        }
-
-
-        /* =====================================================
-           FOOTER
-        ===================================================== */
+        /* ================= FOOTER ================= */
 
         footer {
-
             background: #111;
 
             color: white;
@@ -907,47 +566,37 @@
             padding: 30px 20px;
         }
 
-
-        footer h3 {
-            margin-bottom: 7px;
-        }
-
-
         footer p {
+            margin: 5px;
 
-            color: #aaa;
-
-            font-size: 13px;
+            color: #bbb;
         }
 
 
-        /* =====================================================
-           MOBILE
-        ===================================================== */
+        /* ================= MOBILE ================= */
 
         @media (max-width: 900px) {
 
             .hero h1 {
-                font-size: 43px;
+                font-size: 38px;
             }
 
-
-            .service-grid,
-            .project-grid {
-
-                grid-template-columns: 1fr 1fr;
+            .service-container,
+            .project-container {
+                grid-template-columns:
+                    1fr 1fr;
             }
 
-
-            .why-grid {
-
-                grid-template-columns: 1fr 1fr;
+            .why-container {
+                grid-template-columns:
+                    1fr 1fr;
             }
 
+            .about-container {
+                grid-template-columns: 1fr;
+            }
 
-            .about-grid,
-            .contact-grid {
-
+            .contact-container {
                 grid-template-columns: 1fr;
             }
 
@@ -957,125 +606,61 @@
         @media (max-width: 600px) {
 
             header {
-
                 flex-direction: column;
 
-                gap: 12px;
-
-                padding: 13px 5%;
+                gap: 15px;
             }
-
-
-            .logo {
-                font-size: 18px;
-            }
-
 
             nav {
-
-                gap: 12px;
-
-                flex-wrap: wrap;
-
-                justify-content: center;
+                text-align: center;
             }
-
 
             nav a {
-                font-size: 11px;
+                margin: 0 5px;
+
+                font-size: 13px;
             }
 
-
             .hero {
-
                 min-height: 80vh;
             }
 
-
             .hero h1 {
-
-                font-size: 34px;
-            }
-
-
-            .hero p {
-
-                font-size: 15px;
-            }
-
-
-            section {
-
-                padding: 65px 5%;
-            }
-
-
-            .section-title h2 {
-
-                font-size: 30px;
-            }
-
-
-            .service-grid,
-            .project-grid,
-            .why-grid {
-
-                grid-template-columns: 1fr;
-            }
-
-
-            .about-content h2 {
-
                 font-size: 32px;
             }
 
-
-            .owner-photo {
-
-                height: 400px;
-            }
-
-
-            .experience {
-
-                grid-template-columns: 1fr 1fr;
-            }
-
-
-            .form-row {
-
-                grid-template-columns: 1fr;
-            }
-
-
-            .quote-box {
-
-                padding: 25px 18px;
-            }
-
-
-            .floating-contact {
-
-                left: 8px;
-
-                gap: 8px;
-            }
-
-
-            .floating-contact a {
-
-                width: 43px;
-
-                height: 43px;
-
+            .hero p {
                 font-size: 17px;
             }
 
+            .service-container,
+            .project-container,
+            .why-container {
+                grid-template-columns: 1fr;
+            }
 
-            .map,
-            .map iframe {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
 
-                min-height: 330px;
+            .quote-container {
+                padding: 25px 18px;
+            }
+
+            section {
+                padding: 60px 5%;
+            }
+
+            .floating-contact {
+                left: 10px;
+            }
+
+            .floating-contact a {
+                width: 45px;
+
+                height: 45px;
+
+                font-size: 19px;
             }
 
         }
@@ -1088,949 +673,897 @@
 <body>
 
 
-<!-- =====================================================
-     FLOATING CONTACT BUTTONS
-===================================================== -->
+    <!-- ================= HEADER ================= -->
 
-<div class="floating-contact">
+    <header>
 
-    <a
-        href="https://wa.me/966508895356"
-        target="_blank"
-        rel="noopener"
-        class="whatsapp"
-        title="WhatsApp">
+        <div class="logo">
 
-        💬
+            Riyadh <span>Epoxy</span>
 
-    </a>
+        </div>
 
 
-    <a
-        href="tel:+966508895356"
-        class="phone"
-        title="Call">
+        <nav>
 
-        📞
+            <a href="#home">Home</a>
 
-    </a>
+            <a href="#services">Services</a>
 
+            <a href="#about">About</a>
 
-    <a
-        href="mailto:janiiazaz@gmail.com"
-        class="email"
-        title="Email">
+            <a href="#projects">Projects</a>
 
-        ✉️
+            <a href="#why-us">Why Us</a>
 
-    </a>
+            <a href="#quote">Get a Quote</a>
 
-</div>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
 
 
 
-<!-- =====================================================
-     HEADER
-===================================================== -->
+    <!-- ================= FLOATING CONTACT ================= -->
 
-<header>
-
-    <div class="logo">
-
-        Riyadh
-        <span>Epoxy and Painting</span>
-
-    </div>
+    <div class="floating-contact">
 
 
-    <nav>
-
-        <a href="#home">Home</a>
-
-        <a href="#services">Services</a>
-
-        <a href="#about">About</a>
-
-        <a href="#projects">Work</a>
-
-        <a href="#quote">Quote</a>
-
-        <a href="#contact">Contact</a>
-
-    </nav>
-
-</header>
-
-
-
-<!-- =====================================================
-     HERO
-===================================================== -->
-
-<section class="hero" id="home">
-
-    <div class="hero-content">
-
-        <h1>
-
-            Epoxy Flooring &
-            <span>Painting Services</span>
-            in Riyadh
-
-        </h1>
-
-
-        <p>
-
-            Professional epoxy flooring, interior painting
-            and exterior painting services in Riyadh, Saudi Arabia.
-
-        </p>
-
-
-        <a
-            href="#quote"
-            class="btn btn-primary">
-
-            Get a Free Quote
-
-        </a>
-
+        <!-- WhatsApp -->
 
         <a
             href="https://wa.me/966508895356"
             target="_blank"
-            rel="noopener"
-            class="btn btn-whatsapp">
+            class="whatsapp"
+            title="Chat on WhatsApp">
 
-            WhatsApp Us
+            💬
 
         </a>
 
+
+        <!-- Phone -->
+
+        <a
+            href="tel:+966508895356"
+            class="phone"
+            title="Call Us">
+
+            📞
+
+        </a>
+
+
+        <!-- Email -->
+
+        <a
+            href="mailto:janiiazaz@gmail.com"
+            class="email"
+            title="Email Us">
+
+            ✉️
+
+        </a>
+
+
     </div>
 
-</section>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>
+
+                Epoxy Flooring &
+
+                <span>Painting Services</span>
+
+                in Riyadh
+
+            </h1>
+
+
+            <p>
+
+                Professional interior and exterior painting,
+                epoxy flooring, and decorative finishing
+                services for homes, villas, offices,
+                and commercial spaces.
+
+            </p>
+
+
+            <a
+                href="#quote"
+                class="btn btn-primary">
+
+                Request a Free Quote
+
+            </a>
+
+
+            <a
+                href="https://wa.me/966508895356"
+                class="btn btn-whatsapp"
+                target="_blank">
+
+                WhatsApp Us
+
+            </a>
+
+        </div>
+
+    </section>
 
 
 
-<!-- =====================================================
-     SERVICES
-===================================================== -->
+    <!-- ================= SERVICES ================= -->
 
-<section class="services" id="services">
+    <section class="services" id="services">
 
-    <div class="section-title">
+        <div class="section-title">
 
-        <h2>Our Services</h2>
+            <h2>Our Services</h2>
 
-        <p>
-            Quality finishing solutions for homes and businesses in Riyadh.
-        </p>
+            <p>
 
-    </div>
+                Professional finishing solutions for
+                residential and commercial properties
+                in Riyadh.
+
+            </p>
+
+        </div>
 
 
-    <div class="service-grid">
+        <div class="service-container">
 
 
-        <div class="service-card">
+            <div class="service-card">
 
-            <img
-                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=85"
-                alt="Epoxy flooring service in Riyadh">
-
-            <div class="service-content">
+                <div class="icon">🏢</div>
 
                 <h3>Epoxy Flooring</h3>
 
                 <p>
-                    Durable and attractive epoxy floor solutions
-                    for residential and commercial spaces.
+
+                    Durable and attractive epoxy flooring
+                    solutions for garages, warehouses,
+                    commercial spaces and homes.
+
                 </p>
 
             </div>
 
-        </div>
 
+            <div class="service-card">
 
-        <div class="service-card">
-
-            <img
-                src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=900&q=85"
-                alt="Interior painting service in Riyadh">
-
-            <div class="service-content">
+                <div class="icon">🎨</div>
 
                 <h3>Interior Painting</h3>
 
                 <p>
-                    Fresh, clean and professional interior painting
-                    for homes, villas and offices.
+
+                    Professional interior painting for
+                    homes, villas, apartments, offices
+                    and commercial properties.
+
                 </p>
 
             </div>
 
-        </div>
 
+            <div class="service-card">
 
-        <div class="service-card">
-
-            <img
-                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85"
-                alt="Exterior painting service in Riyadh">
-
-            <div class="service-content">
+                <div class="icon">🏠</div>
 
                 <h3>Exterior Painting</h3>
 
                 <p>
-                    Exterior painting and finishing for residential
-                    and commercial properties.
+
+                    High-quality exterior painting designed
+                    to improve the appearance and protection
+                    of your property.
+
                 </p>
 
             </div>
 
-        </div>
 
+            <div class="service-card">
 
-        <div class="service-card">
-
-            <img
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85"
-                alt="Wall decoration in Riyadh">
-
-            <div class="service-content">
+                <div class="icon">✨</div>
 
                 <h3>Wall Decoration</h3>
 
                 <p>
-                    Modern wall decoration and finishing
-                    for attractive interiors.
+
+                    Decorative wall finishes and modern
+                    color solutions for your space.
+
                 </p>
 
             </div>
 
-        </div>
 
+            <div class="service-card">
 
-        <div class="service-card">
+                <div class="icon">🖌️</div>
 
-            <img
-                src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=85"
-                alt="Residential painting service in Riyadh">
-
-            <div class="service-content">
-
-                <h3>Residential Painting</h3>
+                <h3>Color Decoration</h3>
 
                 <p>
-                    Painting solutions for houses, villas,
-                    apartments and other residential spaces.
+
+                    Professional color selection and
+                    finishing services for modern spaces.
+
                 </p>
 
             </div>
 
-        </div>
 
+            <div class="service-card">
 
-        <div class="service-card">
+                <div class="icon">🏗️</div>
 
-            <img
-                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
-                alt="Commercial painting service in Riyadh">
-
-            <div class="service-content">
-
-                <h3>Commercial Painting</h3>
+                <h3>Commercial Projects</h3>
 
                 <p>
-                    Professional painting for offices, shops
-                    and commercial properties.
+
+                    Painting and flooring services for
+                    shops, offices, warehouses and
+                    commercial properties.
+
                 </p>
 
             </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
-
-<section class="about" id="about">
-
-    <div class="about-grid">
-
-
-        <div>
-
-            <!-- Replace this with the owner's real photo -->
-
-            <img
-                class="owner-photo"
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=85"
-                alt="Riyadh Epoxy and Painting service provider">
 
         </div>
 
-
-        <div class="about-content">
-
-            <h2>About Us</h2>
+    </section>
 
 
-            <p>
 
-                Riyadh Epoxy and Painting provides
-                professional flooring and painting services
-                in Riyadh, Saudi Arabia.
+    <!-- ================= ABOUT ================= -->
 
-            </p>
+    <section class="about" id="about">
 
-
-            <p>
-
-                We focus on quality finishing, clean work
-                and solutions suited to each project.
-
-            </p>
+        <div class="about-container">
 
 
-            <div class="experience">
+            <div>
 
-                <div class="experience-box">
+                <!-- Replace this image with the owner's real photo later -->
 
-                    <strong>Riyadh</strong>
+                <img
+                    class="owner-image"
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
+                    alt="Business owner">
 
-                    <small>
-                        Service Area
-                    </small>
+            </div>
 
-                </div>
+
+            <div class="about-text">
+
+                <h2>About the Owner</h2>
+
+
+                <p>
+
+                    Welcome to our professional painting
+                    and epoxy flooring services in Riyadh.
+
+                </p>
+
+
+                <p>
+
+                    Our services are led by an experienced
+                    professional with practical experience
+                    in painting, epoxy flooring, color
+                    decoration and property finishing
+                    in Riyadh, Saudi Arabia.
+
+                </p>
+
+
+                <p>
+
+                    We focus on quality workmanship,
+                    reliable service, attention to detail
+                    and customer satisfaction.
+
+                </p>
 
 
                 <div class="experience-box">
 
-                    <strong>Quality</strong>
+                    <strong>
+                        Experience in Riyadh:
+                    </strong>
 
-                    <small>
-                        Finishing Focus
-                    </small>
+                    <p>
+                        X+ years of professional experience
+                    </p>
+
+                </div>
+
+
+                <div class="experience-box">
+
+                    <strong>
+                        Service Area:
+                    </strong>
+
+                    <p>
+                        Riyadh, Saudi Arabia
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects" id="projects">
+
+        <div class="section-title">
+
+            <h2>Our Projects</h2>
+
+            <p>
+
+                A selection of our completed painting
+                and epoxy flooring work.
+
+            </p>
+
+        </div>
+
+
+        <div class="project-container">
+
+
+            <div class="project-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+                    alt="Interior painting project">
+
+                <div class="project-card-content">
+
+                    <h3>Interior Painting</h3>
+
+                    <p>
+
+                        Professional interior painting
+                        and finishing work.
+
+                    </p>
 
                 </div>
 
             </div>
 
 
-            <a
-                href="#quote"
-                class="btn btn-primary">
+            <div class="project-card">
 
-                Discuss Your Project
+                <img
+                    src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=800&q=80"
+                    alt="Exterior painting project">
 
-            </a>
+                <div class="project-card-content">
 
-        </div>
+                    <h3>Exterior Painting</h3>
 
-    </div>
+                    <p>
 
-</section>
+                        Exterior painting and property
+                        finishing services.
 
+                    </p>
 
-
-<!-- =====================================================
-     PROJECTS
-===================================================== -->
-
-<section class="projects" id="projects">
-
-    <div class="section-title">
-
-        <h2>Our Work</h2>
-
-        <p>
-            A selection of our painting and finishing work.
-        </p>
-
-    </div>
-
-
-    <div class="project-grid">
-
-
-        <div class="project">
-
-            <img
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
-                alt="Interior painting project in Riyadh">
-
-            <div class="project-overlay">
-
-                <h3>Interior Painting</h3>
+                </div>
 
             </div>
 
-        </div>
 
+            <div class="project-card">
 
-        <div class="project">
+                <img
+                    src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=80"
+                    alt="Flooring project">
 
-            <img
-                src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85"
-                alt="Modern interior finishing project">
+                <div class="project-card-content">
 
-            <div class="project-overlay">
+                    <h3>Flooring Project</h3>
 
-                <h3>Interior Finishing</h3>
+                    <p>
 
-            </div>
+                        High-quality flooring and surface
+                        finishing solutions.
 
-        </div>
+                    </p>
 
-
-        <div class="project">
-
-            <img
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85"
-                alt="Flooring and finishing project">
-
-            <div class="project-overlay">
-
-                <h3>Flooring & Finishing</h3>
+                </div>
 
             </div>
 
-        </div>
-
-
-        <div class="project">
-
-            <img
-                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85"
-                alt="Painting work in Riyadh">
-
-            <div class="project-overlay">
-
-                <h3>Painting Work</h3>
-
-            </div>
 
         </div>
 
-
-        <div class="project">
-
-            <img
-                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
-                alt="Residential painting and decoration">
-
-            <div class="project-overlay">
-
-                <h3>Residential Work</h3>
-
-            </div>
-
-        </div>
-
-
-        <div class="project">
-
-            <img
-                src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85"
-                alt="Commercial painting project in Riyadh">
-
-            <div class="project-overlay">
-
-                <h3>Commercial Work</h3>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
 
 
 
-<!-- =====================================================
-     WHY CHOOSE US
-===================================================== -->
+    <!-- ================= WHY CHOOSE US ================= -->
 
-<section class="why">
+    <section class="why-us" id="why-us">
 
-    <div class="section-title">
+        <div class="section-title">
 
-        <h2>Why Choose Us?</h2>
-
-        <p>
-            Simple, professional and customer-focused service.
-        </p>
-
-    </div>
-
-
-    <div class="why-grid">
-
-
-        <div class="why-card">
-
-            <div class="why-icon">⭐</div>
-
-            <h3>Quality Work</h3>
+            <h2>Why Choose Us?</h2>
 
             <p>
-                Attention to finishing and detail.
+
+                Professional service you can rely on.
+
             </p>
 
         </div>
 
 
-        <div class="why-card">
+        <div class="why-container">
 
-            <div class="why-icon">👷</div>
 
-            <h3>Experience</h3>
+            <div class="why-card">
+
+                <div class="icon">⭐</div>
+
+                <h3>Quality Work</h3>
+
+                <p>
+
+                    We focus on quality and attention
+                    to detail.
+
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="icon">👷</div>
+
+                <h3>Experienced</h3>
+
+                <p>
+
+                    Practical experience in painting
+                    and flooring services.
+
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="icon">📍</div>
+
+                <h3>Riyadh Based</h3>
+
+                <p>
+
+                    Serving customers throughout Riyadh.
+
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="icon">🤝</div>
+
+                <h3>Reliable Service</h3>
+
+                <p>
+
+                    Professional communication and
+                    dependable service.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= GET A QUOTE ================= -->
+
+    <section class="quote" id="quote">
+
+        <div class="section-title">
+
+            <h2>Request a Free Quote</h2>
 
             <p>
-                Practical experience in painting and flooring.
+
+                Tell us about your project and send
+                the details directly to WhatsApp.
+
             </p>
 
         </div>
 
 
-        <div class="why-card">
-
-            <div class="why-icon">📍</div>
-
-            <h3>Riyadh</h3>
-
-            <p>
-                Serving customers across Riyadh.
-            </p>
-
-        </div>
+        <div class="quote-container">
 
 
-        <div class="why-card">
-
-            <div class="why-icon">🤝</div>
-
-            <h3>Direct Contact</h3>
-
-            <p>
-                Easy communication through WhatsApp or phone.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
+            <form id="quoteForm">
 
 
-
-<!-- =====================================================
-     GET A QUOTE
-===================================================== -->
-
-<section class="quote" id="quote">
-
-    <div class="section-title">
-
-        <h2>Get a Free Quote</h2>
-
-        <p>
-            Tell us about your project and we'll contact you.
-        </p>
-
-    </div>
+                <div class="form-row">
 
 
-    <div class="quote-box">
+                    <div class="form-group">
 
-        <form id="quoteForm">
+                        <label for="name">
+                            Your Name *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
 
 
-            <div class="form-row">
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number *
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Enter your phone number"
+                            required>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="location">
+                            Location *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="location"
+                            placeholder="e.g. Riyadh, Al Malaz"
+                            required>
+
+                    </div>
+
+
+                </div>
+
 
 
                 <div class="form-group">
 
-                    <label for="name">
-                        Name *
+                    <label for="service">
+                        Type of Work *
                     </label>
 
-                    <input
-                        type="text"
-                        id="name"
-                        placeholder="Your name"
+
+                    <select
+                        id="service"
                         required>
 
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option value="Epoxy Flooring">
+                            Epoxy Flooring
+                        </option>
+
+                        <option value="Interior Painting">
+                            Interior Painting
+                        </option>
+
+                        <option value="Exterior Painting">
+                            Exterior Painting
+                        </option>
+
+                        <option value="Wall Decoration">
+                            Wall Decoration
+                        </option>
+
+                        <option value="Color Decoration">
+                            Color Decoration
+                        </option>
+
+                        <option value="Commercial Project">
+                            Commercial Project
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
+
                 </div>
+
 
 
                 <div class="form-group">
 
-                    <label for="phone">
-                        Phone *
+                    <label for="description">
+                        Describe the Work *
                     </label>
 
-                    <input
-                        type="tel"
-                        id="phone"
-                        placeholder="Your phone number"
-                        required>
 
-                </div>
-
-            </div>
-
-
-            <div class="form-row">
-
-
-                <div class="form-group">
-
-                    <label for="email">
-                        Email
-                    </label>
-
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="Your email">
+                    <textarea
+                        id="description"
+                        placeholder="Please describe the work you need..."
+                        required></textarea>
 
                 </div>
 
 
-                <div class="form-group">
 
-                    <label for="location">
-                        Location *
-                    </label>
+                <button
+                    type="submit"
+                    class="form-submit">
 
-                    <input
-                        type="text"
-                        id="location"
-                        placeholder="Project location"
-                        required>
+                    💬 Send Request on WhatsApp
 
-                </div>
-
-            </div>
+                </button>
 
 
-            <div class="form-group">
+            </form>
 
-                <label for="service">
-                    Service *
-                </label>
+        </div>
 
-                <select id="service" required>
-
-                    <option value="">
-                        Select service
-                    </option>
-
-                    <option>
-                        Epoxy Flooring
-                    </option>
-
-                    <option>
-                        Interior Painting
-                    </option>
-
-                    <option>
-                        Exterior Painting
-                    </option>
-
-                    <option>
-                        Wall Decoration
-                    </option>
-
-                    <option>
-                        Residential Painting
-                    </option>
-
-                    <option>
-                        Commercial Painting
-                    </option>
-
-                    <option>
-                        Other
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="description">
-                    Project Details *
-                </label>
-
-                <textarea
-                    id="description"
-                    placeholder="Briefly describe the work you need..."
-                    required></textarea>
-
-            </div>
-
-
-            <button
-                type="submit"
-                class="submit-btn">
-
-                💬 Send via WhatsApp
-
-            </button>
-
-        </form>
-
-    </div>
-
-</section>
+    </section>
 
 
 
-<!-- =====================================================
-     CONTACT
-===================================================== -->
+    <!-- ================= CONTACT ================= -->
 
-<section class="contact" id="contact">
+    <section class="contact" id="contact">
 
-    <div class="contact-grid">
-
-
-        <div class="contact-info">
+        <div class="section-title">
 
             <h2>Contact Us</h2>
 
-
             <p>
 
-                Ready to discuss your project?
-                Contact Riyadh Epoxy and Painting today.
+                Contact us today for a free quotation.
 
             </p>
 
-
-            <div class="contact-item">
-
-                <div class="contact-icon">
-                    📞
-                </div>
-
-                <div>
-
-                    <strong>Phone</strong>
-
-                    <a href="tel:+966508895356">
-
-                        +966 50 889 5356
-
-                    </a>
-
-                </div>
-
-            </div>
+        </div>
 
 
-            <div class="contact-item">
+        <div class="contact-container">
 
-                <div class="contact-icon">
-                    💬
-                </div>
 
-                <div>
+            <div class="contact-card">
 
-                    <strong>WhatsApp</strong>
+                <div class="icon">💬</div>
 
-                    <a
-                        href="https://wa.me/966508895356"
-                        target="_blank"
-                        rel="noopener">
+                <h3>WhatsApp</h3>
 
-                        +966 50 889 5356
+                <a
+                    href="https://wa.me/966508895356"
+                    target="_blank">
 
-                    </a>
+                    +966 50 889 5356
 
-                </div>
+                </a>
 
             </div>
 
 
-            <div class="contact-item">
+            <div class="contact-card">
 
-                <div class="contact-icon">
-                    ✉️
-                </div>
+                <div class="icon">📞</div>
 
-                <div>
+                <h3>Call Us</h3>
 
-                    <strong>Email</strong>
+                <a href="tel:+966508895356">
 
-                    <a href="mailto:janiiazaz@gmail.com">
+                    +966 50 889 5356
 
-                        janiiazaz@gmail.com
-
-                    </a>
-
-                </div>
+                </a>
 
             </div>
 
+
+            <div class="contact-card">
+
+                <div class="icon">✉️</div>
+
+                <h3>Email</h3>
+
+                <a href="mailto:janiiazaz@gmail.com">
+
+                    janiiazaz@gmail.com
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+        <div style="text-align:center; margin-top:35px;">
 
             <a
-                href="#quote"
-                class="btn btn-primary">
+                href="https://wa.me/966508895356"
+                class="btn btn-whatsapp"
+                target="_blank">
 
-                Get a Free Quote
+                💬 Contact Us on WhatsApp
 
             </a>
 
         </div>
 
-
-
-        <!-- =================================================
-             GOOGLE MAP
-
-             Replace the iframe below after you give me
-             the Google Maps location.
-        ================================================== -->
-
-        <div class="map">
-
-            <iframe
-
-                src="https://www.google.com/maps?q=Riyadh,Saudi%20Arabia&output=embed"
-
-                loading="lazy"
-
-                allowfullscreen
-
-                referrerpolicy="no-referrer-when-downgrade">
-
-            </iframe>
-
-        </div>
-
-
-    </div>
-
-</section>
+    </section>
 
 
 
-<!-- =====================================================
-     FOOTER
-===================================================== -->
+    <!-- ================= FOOTER ================= -->
 
-<footer>
+    <footer>
 
-    <h3>
-        Riyadh Epoxy and Painting
-    </h3>
-
-    <p>
-        Epoxy Flooring & Painting Services in Riyadh, Saudi Arabia
-    </p>
-
-    <p>
-        © 2026 Riyadh Epoxy and Painting. All Rights Reserved.
-    </p>
-
-</footer>
+        <h3>
+            Epoxy Flooring & Interior/Exterior Painting Riyadh
+        </h3>
 
 
+        <p>
 
-<!-- =====================================================
-     WHATSAPP FORM SCRIPT
-===================================================== -->
+            Professional Painting & Epoxy Flooring Services
+            in Riyadh, Saudi Arabia
 
-<script>
-
-    document
-        .getElementById("quoteForm")
-        .addEventListener("submit", function(event) {
-
-            event.preventDefault();
+        </p>
 
 
-            const name =
-                document.getElementById("name").value.trim();
+        <p>
+
+            WhatsApp: +966 50 889 5356
+
+        </p>
 
 
-            const phone =
-                document.getElementById("phone").value.trim();
+        <p>
+
+            © 2026 All Rights Reserved.
+
+        </p>
+
+    </footer>
 
 
-            const email =
-                document.getElementById("email").value.trim();
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        document
+            .getElementById("quoteForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
 
 
-            const location =
-                document.getElementById("location").value.trim();
+                const name =
+                    document.getElementById("name").value;
+
+                const phone =
+                    document.getElementById("phone").value;
+
+                const email =
+                    document.getElementById("email").value;
+
+                const location =
+                    document.getElementById("location").value;
+
+                const service =
+                    document.getElementById("service").value;
+
+                const description =
+                    document.getElementById("description").value;
 
 
-            const service =
-                document.getElementById("service").value;
+                const message =
+
+                    "Hello, I would like to request a free quote.%0A%0A" +
+
+                    "*Name:* " +
+                    encodeURIComponent(name) +
+
+                    "%0A*Phone:* " +
+                    encodeURIComponent(phone) +
+
+                    "%0A*Email:* " +
+                    encodeURIComponent(email) +
+
+                    "%0A*Location:* " +
+                    encodeURIComponent(location) +
+
+                    "%0A*Service:* " +
+                    encodeURIComponent(service) +
+
+                    "%0A*Work Description:* " +
+                    encodeURIComponent(description);
 
 
-            const description =
-                document.getElementById("description").value.trim();
+                const whatsappURL =
+                    "https://wa.me/966508895356?text=" +
+                    message;
 
 
-            const message =
+                window.open(
+                    whatsappURL,
+                    "_blank"
+                );
 
-                "Hello, Riyadh Epoxy and Painting.%0A%0A" +
+            });
 
-                "I would like to request a quote.%0A%0A" +
-
-                "Name: " +
-                encodeURIComponent(name) +
-
-                "%0APhone: " +
-                encodeURIComponent(phone) +
-
-                "%0AEmail: " +
-                encodeURIComponent(
-                    email || "Not provided"
-                ) +
-
-                "%0ALocation: " +
-                encodeURIComponent(location) +
-
-                "%0AService: " +
-                encodeURIComponent(service) +
-
-                "%0AProject Details: " +
-                encodeURIComponent(description);
-
-
-            const whatsappURL =
-
-                "https://wa.me/966508895356?text=" +
-                message;
-
-
-            window.open(
-                whatsappURL,
-                "_blank"
-            );
-
-        });
-
-</script>
+    </script>
 
 
 </body>
