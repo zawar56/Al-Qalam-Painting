@@ -7,9 +7,11 @@
     <title>Epoxy Flooring & Interior/Exterior Painting Riyadh</title>
 
     <meta name="description"
-        content="Professional epoxy flooring and interior and exterior painting services in Riyadh, Saudi Arabia.">
+          content="Professional epoxy flooring, interior and exterior painting services in Riyadh, Saudi Arabia.">
 
     <style>
+
+        /* ================= GENERAL ================= */
 
         * {
             margin: 0;
@@ -25,17 +27,39 @@
             background: #f7f7f7;
         }
 
+        section {
+            padding: 80px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #666;
+        }
+
+
         /* ================= HEADER ================= */
 
         header {
             background: #111;
             color: white;
             padding: 18px 7%;
+
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             position: sticky;
             top: 0;
+
             z-index: 1000;
         }
 
@@ -60,30 +84,42 @@
         }
 
 
-        /* ================= FLOATING CONTACT BUTTONS ================= */
+        /* ================= FIXED CONTACT BUTTONS ================= */
 
         .floating-contact {
             position: fixed;
-            right: 18px;
+
+            left: 18px;
             top: 50%;
+
             transform: translateY(-50%);
+
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            z-index: 2000;
+
+            gap: 12px;
+
+            z-index: 5000;
         }
 
         .floating-contact a {
-            width: 50px;
-            height: 50px;
+            width: 52px;
+            height: 52px;
+
             border-radius: 50%;
+
             display: flex;
             align-items: center;
             justify-content: center;
+
             text-decoration: none;
+
             color: white;
+
             font-size: 22px;
+
             box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
             transition: 0.3s;
         }
 
@@ -124,6 +160,7 @@
             justify-content: center;
 
             text-align: center;
+
             color: white;
 
             padding: 40px 20px;
@@ -152,13 +189,21 @@
 
         .btn {
             display: inline-block;
+
             padding: 14px 28px;
+
             margin: 5px;
+
             border-radius: 5px;
+
             text-decoration: none;
+
             font-weight: bold;
+
             border: none;
+
             cursor: pointer;
+
             font-size: 15px;
         }
 
@@ -181,27 +226,6 @@
         }
 
 
-        /* ================= SECTIONS ================= */
-
-        section {
-            padding: 80px 7%;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .section-title h2 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-
-        .section-title p {
-            color: #666;
-        }
-
-
         /* ================= SERVICES ================= */
 
         .services {
@@ -210,21 +234,30 @@
 
         .service-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
             gap: 25px;
         }
 
         .service-card {
             background: #f7f7f7;
+
             padding: 35px 25px;
+
             text-align: center;
+
             border-radius: 8px;
+
             transition: 0.3s;
         }
 
         .service-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+
+            box-shadow:
+                0 10px 25px rgba(0,0,0,0.12);
         }
 
         .service-card .icon {
@@ -249,36 +282,52 @@
 
         .about-container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+
+            grid-template-columns:
+                1fr 1fr;
+
             gap: 50px;
+
             align-items: center;
         }
 
         .owner-image {
             width: 100%;
+
             max-width: 500px;
+
             height: 500px;
+
             object-fit: cover;
+
             border-radius: 10px;
+
             display: block;
+
             margin: auto;
         }
 
         .about-text h2 {
             font-size: 36px;
+
             margin-bottom: 20px;
         }
 
         .about-text p {
             margin-bottom: 18px;
+
             color: #555;
         }
 
         .experience-box {
             background: white;
+
             padding: 20px;
+
             margin-top: 20px;
-            border-left: 5px solid #d4a017;
+
+            border-left:
+                5px solid #d4a017;
         }
 
 
@@ -290,19 +339,26 @@
 
         .project-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
             gap: 20px;
         }
 
         .project-card {
             background: #f5f5f5;
+
             border-radius: 8px;
+
             overflow: hidden;
         }
 
         .project-card img {
             width: 100%;
+
             height: 240px;
+
             object-fit: cover;
         }
 
@@ -319,7 +375,7 @@
         }
 
 
-        /* ================= QUOTE FORM ================= */
+        /* ================= QUOTE ================= */
 
         .quote {
             background: #eeeeee;
@@ -327,16 +383,25 @@
 
         .quote-container {
             max-width: 850px;
+
             margin: auto;
+
             background: white;
+
             padding: 40px;
+
             border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+            box-shadow:
+                0 5px 20px rgba(0,0,0,0.08);
         }
 
         .form-row {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+
+            grid-template-columns:
+                1fr 1fr;
+
             gap: 20px;
         }
 
@@ -346,35 +411,53 @@
 
         .form-group label {
             display: block;
+
             margin-bottom: 7px;
+
             font-weight: bold;
         }
 
         .form-group input,
         .form-group select,
         .form-group textarea {
+
             width: 100%;
+
             padding: 13px;
-            border: 1px solid #ccc;
+
+            border:
+                1px solid #ccc;
+
             border-radius: 5px;
+
             font-size: 15px;
+
             font-family: inherit;
         }
 
         .form-group textarea {
             height: 140px;
+
             resize: vertical;
         }
 
         .form-submit {
             width: 100%;
+
             padding: 15px;
+
             border: none;
+
             border-radius: 5px;
+
             background: #25D366;
+
             color: white;
+
             font-size: 17px;
+
             font-weight: bold;
+
             cursor: pointer;
         }
 
@@ -387,13 +470,18 @@
 
         .why-us {
             background: #111;
+
             color: white;
         }
 
         .why-container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
             gap: 25px;
+
             text-align: center;
         }
 
@@ -403,6 +491,7 @@
 
         .why-card h3 {
             margin: 12px 0;
+
             color: #d4a017;
         }
 
@@ -415,21 +504,30 @@
 
         .contact-container {
             max-width: 1000px;
+
             margin: auto;
+
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
             gap: 20px;
+
             text-align: center;
         }
 
         .contact-card {
             background: #f7f7f7;
+
             padding: 30px 20px;
+
             border-radius: 8px;
         }
 
         .contact-card .icon {
             font-size: 35px;
+
             margin-bottom: 10px;
         }
 
@@ -439,7 +537,9 @@
 
         .contact-card a {
             color: #222;
+
             text-decoration: none;
+
             word-break: break-word;
         }
 
@@ -452,13 +552,17 @@
 
         footer {
             background: #111;
+
             color: white;
+
             text-align: center;
+
             padding: 30px 20px;
         }
 
         footer p {
             margin: 5px;
+
             color: #bbb;
         }
 
@@ -473,11 +577,13 @@
 
             .service-container,
             .project-container {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns:
+                    1fr 1fr;
             }
 
             .why-container {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns:
+                    1fr 1fr;
             }
 
             .about-container {
@@ -495,6 +601,7 @@
 
             header {
                 flex-direction: column;
+
                 gap: 15px;
             }
 
@@ -504,6 +611,7 @@
 
             nav a {
                 margin: 0 5px;
+
                 font-size: 13px;
             }
 
@@ -538,12 +646,14 @@
             }
 
             .floating-contact {
-                right: 10px;
+                left: 10px;
             }
 
             .floating-contact a {
-                width: 44px;
-                height: 44px;
+                width: 45px;
+
+                height: 45px;
+
                 font-size: 19px;
             }
 
@@ -557,16 +667,19 @@
 <body>
 
 
-<!-- ================= FLOATING CONTACT BUTTONS ================= -->
+<!-- =====================================================
+     FIXED CONTACT BUTTONS
+===================================================== -->
 
 <div class="floating-contact">
 
     <!-- WhatsApp -->
+
     <a
         href="https://wa.me/966508895356"
         target="_blank"
         class="whatsapp"
-        title="WhatsApp">
+        title="Chat on WhatsApp">
 
         💬
 
@@ -574,6 +687,7 @@
 
 
     <!-- Phone -->
+
     <a
         href="tel:+966508895356"
         class="phone"
@@ -585,6 +699,7 @@
 
 
     <!-- Email -->
+
     <a
         href="mailto:janiiazaz@gmail.com"
         class="email"
@@ -598,12 +713,16 @@
 
 
 
-<!-- ================= HEADER ================= -->
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
 <header>
 
     <div class="logo">
+
         Riyadh <span>Epoxy</span>
+
     </div>
 
 
@@ -627,7 +746,9 @@
 
 
 
-<!-- ================= HERO ================= -->
+<!-- =====================================================
+     HOME
+===================================================== -->
 
 <section class="hero" id="home">
 
@@ -647,8 +768,9 @@
         <p>
 
             Professional interior and exterior painting,
-            epoxy flooring, and decorative finishing services
-            for homes, villas, offices, and commercial spaces.
+            epoxy flooring, and decorative finishing
+            services for homes, villas, offices,
+            and commercial spaces.
 
         </p>
 
@@ -677,7 +799,9 @@
 
 
 
-<!-- ================= SERVICES ================= -->
+<!-- =====================================================
+     SERVICES
+===================================================== -->
 
 <section class="services" id="services">
 
@@ -688,7 +812,8 @@
         <p>
 
             Professional finishing solutions for
-            residential and commercial properties in Riyadh.
+            residential and commercial properties
+            in Riyadh.
 
         </p>
 
@@ -803,7 +928,9 @@
 
 
 
-<!-- ================= ABOUT ================= -->
+<!-- =====================================================
+     ABOUT OWNER
+===================================================== -->
 
 <section class="about" id="about">
 
@@ -812,7 +939,10 @@
 
         <div>
 
-            <!-- Replace this image with the owner's real photo later -->
+            <!--
+                REPLACE THIS IMAGE LATER
+                WITH THE OWNER'S REAL PHOTO
+            -->
 
             <img
                 class="owner-image"
@@ -857,7 +987,9 @@
 
             <div class="experience-box">
 
-                <strong>Experience in Riyadh:</strong>
+                <strong>
+                    Experience in Riyadh:
+                </strong>
 
                 <p>
 
@@ -870,7 +1002,9 @@
 
             <div class="experience-box">
 
-                <strong>Service Area:</strong>
+                <strong>
+                    Service Area:
+                </strong>
 
                 <p>
 
@@ -888,7 +1022,9 @@
 
 
 
-<!-- ================= PROJECTS ================= -->
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
 
 <section class="projects" id="projects">
 
@@ -980,7 +1116,9 @@
 
 
 
-<!-- ================= QUOTE FORM ================= -->
+<!-- =====================================================
+     REQUEST A QUOTE
+===================================================== -->
 
 <section class="quote" id="quote">
 
@@ -990,8 +1128,8 @@
 
         <p>
 
-            Tell us about your project and we will
-            contact you through WhatsApp.
+            Tell us about your project and send
+            the details directly to WhatsApp.
 
         </p>
 
@@ -999,6 +1137,7 @@
 
 
     <div class="quote-container">
+
 
         <form id="quoteForm">
 
@@ -1009,7 +1148,9 @@
                 <div class="form-group">
 
                     <label for="name">
+
                         Your Name *
+
                     </label>
 
                     <input
@@ -1024,7 +1165,9 @@
                 <div class="form-group">
 
                     <label for="phone">
+
                         Phone Number *
+
                     </label>
 
                     <input
@@ -1045,7 +1188,9 @@
                 <div class="form-group">
 
                     <label for="email">
+
                         Email
+
                     </label>
 
                     <input
@@ -1059,7 +1204,9 @@
                 <div class="form-group">
 
                     <label for="location">
+
                         Location *
+
                     </label>
 
                     <input
@@ -1077,41 +1224,62 @@
             <div class="form-group">
 
                 <label for="service">
+
                     Type of Work *
+
                 </label>
 
-                <select id="service" required>
+
+                <select
+                    id="service"
+                    required>
 
                     <option value="">
+
                         Select a service
+
                     </option>
 
                     <option value="Epoxy Flooring">
+
                         Epoxy Flooring
+
                     </option>
 
                     <option value="Interior Painting">
+
                         Interior Painting
+
                     </option>
 
                     <option value="Exterior Painting">
+
                         Exterior Painting
+
                     </option>
 
                     <option value="Wall Decoration">
+
                         Wall Decoration
+
                     </option>
 
                     <option value="Color Decoration">
+
                         Color Decoration
+
                     </option>
 
                     <option value="Commercial Project">
+
                         Commercial Project
+
                     </option>
 
                     <option value="Other">
+
                         Other
+
                     </option>
 
                 </select>
@@ -1123,12 +1291,15 @@
             <div class="form-group">
 
                 <label for="description">
+
                     Describe the Work *
+
                 </label>
+
 
                 <textarea
                     id="description"
-                    placeholder="Please describe the work you need, approximate area, number of rooms, flooring requirements, etc."
+                    placeholder="Please describe the work you need..."
                     required></textarea>
 
             </div>
@@ -1152,7 +1323,9 @@
 
 
 
-<!-- ================= WHY CHOOSE US ================= -->
+<!-- =====================================================
+     WHY CHOOSE US
+===================================================== -->
 
 <section class="why-us">
 
@@ -1240,7 +1413,9 @@
 
 
 
-<!-- ================= CONTACT ================= -->
+<!-- =====================================================
+     CONTACT
+===================================================== -->
 
 <section class="contact" id="contact">
 
@@ -1326,13 +1501,18 @@
 
 
 
-<!-- ================= FOOTER ================= -->
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
 
     <h3>
+
         Epoxy Flooring & Interior/Exterior Painting Riyadh
+
     </h3>
+
 
     <p>
 
@@ -1341,11 +1521,13 @@
 
     </p>
 
+
     <p>
 
         WhatsApp: +966 50 889 5356
 
     </p>
+
 
     <p>
 
@@ -1357,66 +1539,80 @@
 
 
 
-<!-- ================= WHATSAPP FORM SCRIPT ================= -->
+<!-- =====================================================
+     WHATSAPP FORM SCRIPT
+===================================================== -->
 
 <script>
 
-    document
-        .getElementById("quoteForm")
-        .addEventListener("submit", function(event) {
+document
+    .getElementById("quoteForm")
+    .addEventListener("submit", function(event) {
 
-            event.preventDefault();
-
-
-            const name =
-                document.getElementById("name").value;
-
-            const phone =
-                document.getElementById("phone").value;
-
-            const email =
-                document.getElementById("email").value;
-
-            const location =
-                document.getElementById("location").value;
-
-            const service =
-                document.getElementById("service").value;
-
-            const description =
-                document.getElementById("description").value;
+        event.preventDefault();
 
 
-            const message =
-                "Hello, I would like to request a free quote.%0A%0A" +
+        const name =
+            document.getElementById("name").value;
 
-                "*Customer Details*%0A" +
+        const phone =
+            document.getElementById("phone").value;
 
-                "Name: " + encodeURIComponent(name) + "%0A" +
+        const email =
+            document.getElementById("email").value;
 
-                "Phone: " + encodeURIComponent(phone) + "%0A" +
+        const location =
+            document.getElementById("location").value;
 
-                "Email: " + encodeURIComponent(email) + "%0A" +
+        const service =
+            document.getElementById("service").value;
 
-                "Location: " + encodeURIComponent(location) + "%0A%0A" +
-
-                "*Work Required*%0A" +
-
-                "Service: " + encodeURIComponent(service) + "%0A" +
-
-                "Description: " + encodeURIComponent(description);
-
-
-            const whatsappURL =
-                "https://wa.me/966508895356?text=" + message;
+        const description =
+            document.getElementById("description").value;
 
 
-            window.open(
-                whatsappURL,
-                "_blank"
-            );
+        const message =
+            "Hello, I would like to request a free quote.%0A%0A" +
 
-        });
+            "*Customer Details*%0A" +
+
+            "Name: " +
+            encodeURIComponent(name) +
+            "%0A" +
+
+            "Phone: " +
+            encodeURIComponent(phone) +
+            "%0A" +
+
+            "Email: " +
+            encodeURIComponent(email) +
+            "%0A" +
+
+            "Location: " +
+            encodeURIComponent(location) +
+            "%0A%0A" +
+
+            "*Work Required*%0A" +
+
+            "Service: " +
+            encodeURIComponent(service) +
+            "%0A" +
+
+            "Description: " +
+            encodeURIComponent(description);
+
+
+        const whatsappURL =
+            "https://wa.me/966508895356?text=" +
+            message;
+
+
+        window.open(
+            whatsappURL,
+            "_blank"
+        );
+
+    });
 
 </script>
 
