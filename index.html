@@ -15,7 +15,7 @@
         content="Riyadh Epoxy and Painting provides professional epoxy flooring, interior and exterior painting, wall decoration, interior finishing and waterproof painting services in Riyadh, Saudi Arabia.">
 
     <meta name="keywords"
-        content="epoxy flooring Riyadh, epoxy painting Riyadh, painting services Riyadh, interior painting Riyadh, exterior painting Riyadh, wall decoration Riyadh, interior finishing Riyadh, waterproof painting Riyadh, decorative painting Riyadh, villa painting Riyadh">
+        content="epoxy flooring Riyadh, epoxy painting Riyadh, painting services Riyadh, interior painting Riyadh, exterior painting Riyadh, wall decoration Riyadh, interior finishing Riyadh, waterproof painting Riyadh, decorative painting Riyadh, villa painting Riyadh, epoxy floor Riyadh">
 
     <meta name="robots" content="index, follow">
 
@@ -26,18 +26,25 @@
     <link rel="canonical"
         href="https://riyadh-epoxy-painting.vercel.app/">
 
-    <!-- FAVICON -->
+
+    <!-- =====================================================
+         FAVICON
+    ====================================================== -->
+
     <link rel="icon"
         type="image/svg+xml"
         href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102b3f'/%3E%3Cpath d='M10 17h25c5 0 9 4 9 9v5H35v-5c0-1-1-2-2-2H10z' fill='%23d4a84f'/%3E%3Cpath d='M22 31h17v8H22z' fill='%23edc96c'/%3E%3Cpath d='M27 39h7v13h-7z' fill='%23ffffff'/%3E%3Cpath d='M47 12v16M39 20h16' stroke='%23ffffff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
 
-    <!-- OPEN GRAPH -->
+
+    <!-- =====================================================
+         OPEN GRAPH
+    ====================================================== -->
 
     <meta property="og:title"
         content="Riyadh Epoxy and Painting | Professional Painting Services">
 
     <meta property="og:description"
-        content="Professional epoxy flooring, painting, wall decoration and finishing services in Riyadh.">
+        content="Professional epoxy flooring, painting, wall decoration and interior finishing services in Riyadh, Saudi Arabia.">
 
     <meta property="og:type" content="website">
 
@@ -47,7 +54,9 @@
     <meta property="og:image" content="logo.png">
 
 
-    <!-- TWITTER -->
+    <!-- =====================================================
+         TWITTER
+    ====================================================== -->
 
     <meta name="twitter:card" content="summary_large_image">
 
@@ -55,19 +64,22 @@
         content="Riyadh Epoxy and Painting">
 
     <meta name="twitter:description"
-        content="Professional epoxy flooring and painting services in Riyadh, Saudi Arabia.">
+        content="Professional epoxy flooring, painting and finishing services in Riyadh, Saudi Arabia.">
 
     <meta name="twitter:image" content="logo.png">
 
 
-    <!-- LOCAL BUSINESS SCHEMA -->
+    <!-- =====================================================
+         LOCAL BUSINESS SCHEMA
+    ====================================================== -->
 
     <script type="application/ld+json">
+
     {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Riyadh Epoxy and Painting",
-        "description": "Professional epoxy flooring, interior painting, exterior painting, wall decoration and finishing services in Riyadh, Saudi Arabia.",
+        "description": "Professional epoxy flooring, interior painting, exterior painting, wall decoration, interior finishing and waterproof painting services in Riyadh, Saudi Arabia.",
         "url": "https://riyadh-epoxy-painting.vercel.app/",
         "telephone": "+966508895356",
         "email": "janiiazaz@gmail.com",
@@ -86,6 +98,7 @@
             "Waterproof Painting"
         ]
     }
+
     </script>
 
 
@@ -217,24 +230,31 @@ textarea:focus-visible {
     opacity: .08;
 
     background-image:
-        linear-gradient(45deg,
+
+        linear-gradient(
+            45deg,
             transparent 45%,
             var(--gold) 46%,
             var(--gold) 54%,
-            transparent 55%),
-        linear-gradient(-45deg,
+            transparent 55%
+        ),
+
+        linear-gradient(
+            -45deg,
             transparent 45%,
             var(--gold) 46%,
             var(--gold) 54%,
-            transparent 55%);
+            transparent 55%
+        );
 
     background-size: 42px 42px;
 
-    mask-image: linear-gradient(
-        to bottom,
-        black,
-        transparent
-    );
+    mask-image:
+        linear-gradient(
+            to bottom,
+            black,
+            transparent
+        );
 }
 
 
@@ -543,7 +563,8 @@ nav a:hover::after {
 
     padding: 8px 18px;
 
-    border: 1px solid
+    border:
+        1px solid
         rgba(231,195,106,.7);
 
     border-radius: 50px;
@@ -744,7 +765,7 @@ section {
     grid-template-columns:
         repeat(3,minmax(0,1fr));
 
-    gap: 23px;
+    gap: 25px;
 
     max-width: 1400px;
 
@@ -786,7 +807,7 @@ section {
 
 .service-image {
 
-    height: 230px;
+    height: 215px;
 
     overflow: hidden;
 
@@ -867,7 +888,7 @@ section {
 
 
 /* =========================================================
-   ABOUT
+   ABOUT US
 ========================================================= */
 
 .about {
@@ -875,6 +896,8 @@ section {
     background: white;
 
     position: relative;
+
+    overflow: hidden;
 }
 
 
@@ -885,6 +908,10 @@ section {
     margin: auto;
 
     text-align: center;
+
+    position: relative;
+
+    z-index: 2;
 }
 
 
@@ -899,7 +926,7 @@ section {
     color: var(--navy);
 
     font-size:
-        clamp(34px,4vw,48px);
+        clamp(34px,5vw,48px);
 
     line-height: 1.2;
 
@@ -907,108 +934,83 @@ section {
 }
 
 
+.about-content h2 span {
+
+    color: var(--gold);
+}
+
+
 .about-content p {
 
     color: var(--muted);
 
-    margin-bottom: 17px;
-
     font-size: 16px;
+
+    line-height: 1.85;
 
     max-width: 950px;
 
-    margin-left: auto;
-
-    margin-right: auto;
+    margin: 0 auto 17px;
 }
 
 
-.about-list {
-
-    margin: 30px auto;
+.about-highlight {
 
     display: grid;
 
     grid-template-columns:
         repeat(3,1fr);
 
-    gap: 12px;
+    gap: 18px;
 
-    max-width: 950px;
+    max-width: 900px;
+
+    margin: 35px auto 10px;
 }
 
 
-.about-list div {
+.about-box {
+
+    padding: 25px 18px;
 
     background: var(--sand-light);
 
     border:
         1px solid var(--border);
 
-    padding: 13px;
+    border-radius: 14px;
 
-    border-radius: 9px;
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-    color: var(--navy);
+    transition: .3s;
 }
 
 
-.about-list span {
+.about-box:hover {
 
-    color: var(--gold);
+    transform: translateY(-5px);
 
-    margin-right: 6px;
+    box-shadow: var(--shadow);
 }
 
 
-.experience {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(3,1fr);
-
-    gap: 12px;
-
-    margin: 28px auto;
-
-    max-width: 850px;
-}
-
-
-.experience-box {
-
-    padding: 18px;
-
-    border-radius: 10px;
-
-    background: var(--navy);
-
-    color: white;
-
-    text-align: center;
-}
-
-
-.experience-box strong {
+.about-box strong {
 
     display: block;
 
-    color: var(--gold-light);
+    color: var(--gold);
 
-    font-size: 19px;
+    font-size: 23px;
+
+    margin-bottom: 5px;
 }
 
 
-.experience-box small {
+.about-box span {
 
-    color: #c2ced7;
+    color: var(--navy);
 
-    font-size: 11px;
+    font-size: 12px;
+
+    font-weight: 700;
 }
 
 
@@ -1665,11 +1667,18 @@ footer p {
             repeat(2,1fr);
     }
 
-    .about-list {
+    .project-grid {
 
         grid-template-columns:
             repeat(2,1fr);
     }
+
+    .why-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
 }
 
 
@@ -1680,10 +1689,12 @@ footer p {
 @media (max-width:800px) {
 
     header {
+
         padding: 11px 5%;
     }
 
     .menu-btn {
+
         display: block;
     }
 
@@ -1714,6 +1725,7 @@ footer p {
     }
 
     nav.active {
+
         display: flex;
     }
 
@@ -1734,11 +1746,37 @@ footer p {
     }
 
     .hero p {
+
         font-size: 15px;
     }
 
     section {
+
         padding: 70px 5%;
+    }
+
+    .service-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+    .project-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+    .why-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+    .about-highlight {
+
+        grid-template-columns:
+            repeat(3,1fr);
     }
 
     .contact-grid {
@@ -1746,21 +1784,11 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    .project-grid {
-
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-    .why-grid {
-
-        grid-template-columns:
-            1fr 1fr;
-    }
-
     .form-row {
+
         grid-template-columns: 1fr;
     }
+
 }
 
 
@@ -1778,14 +1806,17 @@ footer p {
     }
 
     .logo {
+
         font-size: 16px;
     }
 
     .logo span {
+
         font-size: 8px;
     }
 
     .hero h1 {
+
         font-size: 35px;
     }
 
@@ -1797,6 +1828,7 @@ footer p {
     }
 
     .hero-buttons {
+
         width: 100%;
     }
 
@@ -1808,30 +1840,37 @@ footer p {
     }
 
     .service-grid {
+
         grid-template-columns: 1fr;
     }
 
     .service-image {
+
         height: 230px;
     }
 
     .project-grid {
+
         grid-template-columns: 1fr;
     }
 
     .why-grid {
+
         grid-template-columns: 1fr;
     }
 
-    .about-list {
+    .about-highlight {
+
         grid-template-columns: 1fr;
     }
 
-    .experience {
-        grid-template-columns: 1fr;
+    .about-content p {
+
+        font-size: 15px;
     }
 
     .quote-box {
+
         padding: 25px 18px;
     }
 
@@ -1858,6 +1897,7 @@ footer p {
 
     .map,
     .map iframe {
+
         min-height: 330px;
     }
 
@@ -1867,6 +1907,7 @@ footer p {
 
         bottom: 15px;
     }
+
 }
 
 </style>
@@ -1883,7 +1924,8 @@ footer p {
 
 <div class="floating-contact">
 
-    <!-- WhatsApp -->
+
+    <!-- WHATSAPP -->
 
     <a
         href="https://wa.me/966508895356"
@@ -1908,7 +1950,7 @@ footer p {
     </a>
 
 
-    <!-- Phone -->
+    <!-- PHONE -->
 
     <a
         href="tel:+966508895356"
@@ -1927,7 +1969,7 @@ footer p {
     </a>
 
 
-    <!-- Email -->
+    <!-- EMAIL -->
 
     <a
         href="mailto:janiiazaz@gmail.com"
@@ -1935,9 +1977,15 @@ footer p {
         aria-label="Email us"
         title="Email">
 
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+        <svg class="icon" viewBox="0 0 24 24">
 
-            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <rect
+                x="3"
+                y="5"
+                width="18"
+                height="14"
+                rx="2">
+            </rect>
 
             <path d="m3 7 9 6 9-6"></path>
 
@@ -1989,17 +2037,29 @@ footer p {
 
     <nav id="mainNav">
 
-        <a href="#home">Home</a>
+        <a href="#home">
+            Home
+        </a>
 
-        <a href="#services">Services</a>
+        <a href="#services">
+            Services
+        </a>
 
-        <a href="#about">About</a>
+        <a href="#about">
+            About
+        </a>
 
-        <a href="#projects">Our Work</a>
+        <a href="#projects">
+            Our Work
+        </a>
 
-        <a href="#quote">Free Quote</a>
+        <a href="#quote">
+            Free Quote
+        </a>
 
-        <a href="#contact">Contact</a>
+        <a href="#contact">
+            Contact
+        </a>
 
     </nav>
 
@@ -2021,7 +2081,9 @@ footer p {
     <div class="hero-content">
 
         <div class="hero-badge">
+
             PROFESSIONAL PAINTING & FINISHING SERVICES IN RIYADH
+
         </div>
 
 
@@ -2072,7 +2134,7 @@ footer p {
                     </path>
 
                     <path
-                        d="M8.8 8.4c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.6 1.4c.1.2.1.4 0 .6l-.5.7c-.1.1-.1.3 0 .5.5.9 1.2 1.6 2.1 2.1.2.1.4.1.5 0l.7-.5c.2-.1.4-.1.6 0l1.4.6c.3.1.4.3.4.5v.5c0 .3 0 .5-.4.7-.4.2-1.2.3-2.2-.1-1.1-.5-2.1-1.2-2.9-2-.8-.8-1.5-1.8-2-2.9-.4-1-.3-1.8-.1-2.1Z">
+                        d="M8.8 8.4c.2-.4.4-.4.7-.4h.5c.2 0 .4.3.5.4l.6 1.4c.1.2.1.4 0 .6l-.5.7c-.1.1-.1.3 0 .5.5.9 1.2 1.6 2.1 2.1.2.1.4.1.5 0l.7-.5c.2-.1.4-.1.6 0l1.4.6c.3.1.4.3.4.5v.5c0 .3 0 .5-.4.7-.4.2-1.2.3-2.2-.1-1.1-.5-2.1-1.2-2.9-2-.8-.8-1.5-1.8-2-2.9-.4-1-.3-1.8-.1-2.1Z">
                     </path>
 
                 </svg>
@@ -2099,6 +2161,7 @@ footer p {
 
     <div class="ksa-pattern"></div>
 
+
     <div class="section-title">
 
         <div class="section-label">
@@ -2110,9 +2173,9 @@ footer p {
         </h2>
 
         <p>
-            Complete painting, epoxy flooring, decoration and
+            Complete epoxy flooring, painting, decoration and
             finishing solutions for residential and commercial
-            properties in Riyadh.
+            properties throughout Riyadh.
         </p>
 
     </div>
@@ -2121,7 +2184,9 @@ footer p {
     <div class="service-grid">
 
 
-        <!-- 01 EPOXY -->
+        <!-- =================================================
+             01 EPOXY FLOORING
+        ================================================== -->
 
         <article class="service-card">
 
@@ -2136,16 +2201,20 @@ footer p {
 
             <div class="service-content">
 
-                <span class="service-number">01</span>
+                <span class="service-number">
+                    01
+                </span>
 
                 <h3>
                     Epoxy Flooring
                 </h3>
 
                 <p>
-                    Durable epoxy flooring solutions for garages,
-                    villas, offices, shops and commercial spaces,
-                    providing a clean and attractive surface.
+                    Professional epoxy flooring solutions for
+                    garages, villas, workshops, offices, shops
+                    and commercial spaces in Riyadh. Designed
+                    for durable, attractive and easy-to-maintain
+                    floor surfaces.
                 </p>
 
             </div>
@@ -2153,7 +2222,9 @@ footer p {
         </article>
 
 
-        <!-- 02 INTERIOR -->
+        <!-- =================================================
+             02 INTERIOR PAINTING
+        ================================================== -->
 
         <article class="service-card">
 
@@ -2168,16 +2239,19 @@ footer p {
 
             <div class="service-content">
 
-                <span class="service-number">02</span>
+                <span class="service-number">
+                    02
+                </span>
 
                 <h3>
                     Interior Painting
                 </h3>
 
                 <p>
-                    Professional interior painting for bedrooms,
-                    majlis, living rooms, villas, apartments and
-                    offices throughout Riyadh.
+                    Professional interior painting for villas,
+                    apartments, bedrooms, living rooms, majlis,
+                    offices and other indoor spaces with clean
+                    and attractive finishing.
                 </p>
 
             </div>
@@ -2185,7 +2259,9 @@ footer p {
         </article>
 
 
-        <!-- 03 EXTERIOR -->
+        <!-- =================================================
+             03 EXTERIOR PAINTING
+        ================================================== -->
 
         <article class="service-card">
 
@@ -2193,14 +2269,16 @@ footer p {
 
                 <img
                     src="ext.jpg"
-                    alt="Exterior villa painting service in Riyadh Saudi Arabia"
+                    alt="Exterior villa painting service in Riyadh"
                     loading="lazy">
 
             </div>
 
             <div class="service-content">
 
-                <span class="service-number">03</span>
+                <span class="service-number">
+                    03
+                </span>
 
                 <h3>
                     Exterior Painting
@@ -2208,8 +2286,9 @@ footer p {
 
                 <p>
                     High-quality exterior painting for villas,
-                    residential buildings and outdoor surfaces
-                    designed for the Saudi climate.
+                    residential buildings and commercial
+                    properties in Riyadh, with attention to
+                    surface preparation and professional finishing.
                 </p>
 
             </div>
@@ -2217,7 +2296,9 @@ footer p {
         </article>
 
 
-        <!-- 04 WALL DECORATION -->
+        <!-- =================================================
+             04 WALL DECORATION
+        ================================================== -->
 
         <article class="service-card">
 
@@ -2225,23 +2306,25 @@ footer p {
 
                 <img
                     src="wall decor.jpg"
-                    alt="Modern decorative wall finishing and wall decoration in Riyadh"
+                    alt="Decorative wall design and wall finishing in Riyadh"
                     loading="lazy">
 
             </div>
 
             <div class="service-content">
 
-                <span class="service-number">04</span>
+                <span class="service-number">
+                    04
+                </span>
 
                 <h3>
                     Wall Decoration
                 </h3>
 
                 <p>
-                    Stylish decorative wall finishes, feature
-                    walls and modern wall decoration for homes,
-                    villas, majlis and interior spaces in Riyadh.
+                    Modern decorative wall solutions, feature
+                    walls and elegant wall finishes for villas,
+                    homes, offices and interior spaces in Riyadh.
                 </p>
 
             </div>
@@ -2249,31 +2332,36 @@ footer p {
         </article>
 
 
-        <!-- 05 INTERIOR FINISHING -->
+        <!-- =================================================
+             05 INTERIOR FINISHING
+        ================================================== -->
 
         <article class="service-card">
 
             <div class="service-image">
 
                 <img
-                    src="interior-finishing.jpg"
-                    alt="Professional interior finishing work in Riyadh"
+                    src="int finishing.jpg"
+                    alt="Professional interior finishing service in Riyadh"
                     loading="lazy">
 
             </div>
 
             <div class="service-content">
 
-                <span class="service-number">05</span>
+                <span class="service-number">
+                    05
+                </span>
 
                 <h3>
                     Interior Finishing
                 </h3>
 
                 <p>
-                    Detailed interior finishing solutions that
-                    create clean, polished and visually appealing
-                    residential and commercial spaces.
+                    Detailed interior finishing solutions for
+                    residential and commercial spaces, helping
+                    create polished, clean and visually appealing
+                    interiors.
                 </p>
 
             </div>
@@ -2281,22 +2369,26 @@ footer p {
         </article>
 
 
-        <!-- 06 WATERPROOF -->
+        <!-- =================================================
+             06 WATERPROOF PAINTING
+        ================================================== -->
 
         <article class="service-card">
 
             <div class="service-image">
 
                 <img
-                    src="waterproof.jpg"
-                    alt="Waterproof protective painting and coating service in Riyadh"
+                    src="ext.jpg"
+                    alt="Waterproof protective exterior painting in Riyadh"
                     loading="lazy">
 
             </div>
 
             <div class="service-content">
 
-                <span class="service-number">06</span>
+                <span class="service-number">
+                    06
+                </span>
 
                 <h3>
                     Waterproof Painting
@@ -2305,7 +2397,8 @@ footer p {
                 <p>
                     Protective painting and coating solutions
                     designed to help exterior surfaces withstand
-                    moisture, humidity and weather exposure.
+                    moisture, weather conditions and everyday
+                    environmental exposure.
                 </p>
 
             </div>
@@ -2326,6 +2419,9 @@ footer p {
     class="about"
     id="about">
 
+    <div class="ksa-pattern"></div>
+
+
     <div class="about-content">
 
         <div class="section-label">
@@ -2343,122 +2439,95 @@ footer p {
             <strong>
                 Riyadh Epoxy and Painting
             </strong>
-            is a professional painting and finishing service
-            provider based in Riyadh, Saudi Arabia. We specialize
-            in epoxy flooring, interior painting, exterior
-            painting, decorative wall finishes, interior
-            finishing and protective waterproof painting.
+            is a professional painting, epoxy flooring and
+            interior finishing service provider serving
+            customers throughout Riyadh, Saudi Arabia.
+
+            We provide practical and attractive solutions for
+            residential villas, homes, apartments, offices,
+            shops and commercial properties.
 
         </p>
 
 
         <p>
 
-            Our goal is to provide reliable and attractive
-            painting and finishing solutions for villas, homes,
-            apartments, offices, shops and other properties
-            across Riyadh. From preparing surfaces and applying
-            professional paint finishes to installing durable
-            epoxy flooring and creating decorative feature walls,
-            we focus on clean workmanship and high-quality
-            results.
+            Our services include
+            <strong>epoxy flooring, interior painting,
+            exterior painting, decorative wall finishing,
+            interior finishing and waterproof painting.</strong>
+
+            We focus on clean workmanship, careful surface
+            preparation, attractive results and professional
+            customer service.
 
         </p>
 
 
         <p>
 
-            If you are looking for <strong>epoxy flooring in
-            Riyadh</strong>, professional <strong>interior
-            painting</strong>, <strong>exterior villa
-            painting</strong>, modern <strong>wall decoration</strong>
-            or reliable <strong>interior finishing services</strong>,
-            our team is ready to discuss your requirements and
-            provide a suitable solution for your project.
+            Whether you are renovating a villa, refreshing the
+            interior of your home, improving an exterior surface,
+            installing an epoxy floor or creating a modern
+            decorative wall, our team is ready to discuss your
+            project requirements and provide a suitable solution.
 
         </p>
 
 
         <p>
 
-            We understand that every property has different
-            requirements. That is why we work according to the
-            condition of the surface, the style of the space and
-            the needs of each customer. Our services are suitable
-            for both residential and commercial properties in
-            Riyadh.
+            Based in Riyadh, we understand the importance of
+            durable finishes and professional painting solutions
+            suitable for the local environment. Our goal is to
+            deliver reliable painting and finishing services
+            while maintaining clear communication with every
+            customer from project discussion to completion.
 
         </p>
 
 
-        <div class="about-list">
-
-            <div>
-                <span>✓</span>
-                Epoxy Flooring
-            </div>
-
-            <div>
-                <span>✓</span>
-                Interior Painting
-            </div>
-
-            <div>
-                <span>✓</span>
-                Exterior Painting
-            </div>
-
-            <div>
-                <span>✓</span>
-                Wall Decoration
-            </div>
-
-            <div>
-                <span>✓</span>
-                Interior Finishing
-            </div>
-
-            <div>
-                <span>✓</span>
-                Waterproof Painting
-            </div>
-
-        </div>
+        <div class="about-highlight">
 
 
-        <div class="experience">
+            <div class="about-box">
 
-            <div class="experience-box">
+                <strong>
+                    Riyadh
+                </strong>
 
-                <strong>Riyadh</strong>
-
-                <small>
+                <span>
                     Service Area
-                </small>
+                </span>
 
             </div>
 
 
-            <div class="experience-box">
+            <div class="about-box">
 
-                <strong>6+</strong>
+                <strong>
+                    6+
+                </strong>
 
-                <small>
+                <span>
                     Professional Services
-                </small>
+                </span>
 
             </div>
 
 
-            <div class="experience-box">
+            <div class="about-box">
 
-                <strong>Quality</strong>
+                <strong>
+                    Quality
+                </strong>
 
-                <small>
+                <span>
                     Finishing Focus
-                </small>
+                </span>
 
             </div>
+
 
         </div>
 
@@ -2487,6 +2556,7 @@ footer p {
 
     <div class="ksa-pattern"></div>
 
+
     <div class="section-title">
 
         <div class="section-label">
@@ -2499,7 +2569,7 @@ footer p {
 
         <p>
             Examples of interior finishing, exterior painting,
-            wall decoration and epoxy flooring work.
+            wall decoration, epoxy flooring and painting work.
         </p>
 
     </div>
@@ -2513,7 +2583,7 @@ footer p {
         <article class="project">
 
             <img
-                src="interior-finishing.jpg"
+                src="int finishing.jpg"
                 alt="Interior finishing project in Riyadh"
                 loading="lazy">
 
@@ -2585,30 +2655,6 @@ footer p {
         <article class="project">
 
             <img
-                src="epoxy.jpg"
-                alt="Epoxy flooring project in Riyadh"
-                loading="lazy">
-
-            <div class="project-overlay">
-
-                <span>
-                    Epoxy
-                </span>
-
-                <h3>
-                    Professional Epoxy Flooring
-                </h3>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 05 -->
-
-        <article class="project">
-
-            <img
                 src="interior.jpg"
                 alt="Interior painting project in Riyadh"
                 loading="lazy">
@@ -2628,23 +2674,47 @@ footer p {
         </article>
 
 
-        <!-- PROJECT 06 -->
+        <!-- PROJECT 05 -->
 
         <article class="project">
 
             <img
-                src="wall decor.jpg"
-                alt="Feature wall decoration project in Riyadh"
+                src="epoxy.jpg"
+                alt="Epoxy flooring project in Riyadh"
                 loading="lazy">
 
             <div class="project-overlay">
 
                 <span>
-                    Wall Design
+                    Epoxy Flooring
                 </span>
 
                 <h3>
-                    Feature Wall Decoration
+                    Professional Epoxy Floor
+                </h3>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 06 -->
+
+        <article class="project">
+
+            <img
+                src="int finishing.jpg"
+                alt="Luxury interior finishing project in Riyadh"
+                loading="lazy">
+
+            <div class="project-overlay">
+
+                <span>
+                    Finishing
+                </span>
+
+                <h3>
+                    Luxury Interior Finish
                 </h3>
 
             </div>
@@ -2664,6 +2734,7 @@ footer p {
 <section class="why">
 
     <div class="ksa-pattern"></div>
+
 
     <div class="section-title">
 
@@ -2694,7 +2765,9 @@ footer p {
 
                 <svg class="icon" viewBox="0 0 24 24">
 
-                    <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9L12 3Z"></path>
+                    <path
+                        d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9L12 3Z">
+                    </path>
 
                 </svg>
 
@@ -2737,8 +2810,8 @@ footer p {
             </h3>
 
             <p>
-                Painting, epoxy, decoration and finishing
-                solutions under one service provider.
+                Epoxy, painting, decoration and finishing
+                solutions from one service provider.
             </p>
 
         </div>
@@ -2752,9 +2825,15 @@ footer p {
 
                 <svg class="icon" viewBox="0 0 24 24">
 
-                    <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"></path>
+                    <path
+                        d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z">
+                    </path>
 
-                    <circle cx="12" cy="10" r="2.5"></circle>
+                    <circle
+                        cx="12"
+                        cy="10"
+                        r="2.5">
+                    </circle>
 
                 </svg>
 
@@ -2780,7 +2859,9 @@ footer p {
 
                 <svg class="icon" viewBox="0 0 24 24">
 
-                    <path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.8 9.8 0 0 1-4-.8L3 21l1.8-4.3A8.5 8.5 0 1 1 21 11.5Z"></path>
+                    <path
+                        d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.8 9.8 0 0 1-4-.8L3 21l1.8-4.3A8.5 8.5 0 1 1 21 11.5Z">
+                    </path>
 
                 </svg>
 
@@ -2836,6 +2917,7 @@ footer p {
 
             <div class="form-row">
 
+
                 <div class="form-group">
 
                     <label for="name">
@@ -2871,6 +2953,7 @@ footer p {
 
 
             <div class="form-row">
+
 
                 <div class="form-group">
 
@@ -2960,7 +3043,8 @@ footer p {
                 <textarea
                     id="description"
                     placeholder="Briefly describe your project..."
-                    required></textarea>
+                    required>
+                </textarea>
 
             </div>
 
@@ -2968,6 +3052,7 @@ footer p {
             <button
                 type="submit"
                 class="submit-btn">
+
 
                 <svg class="icon" viewBox="0 0 24 24">
 
@@ -2980,6 +3065,7 @@ footer p {
                     </path>
 
                 </svg>
+
 
                 Send Request via WhatsApp
 
@@ -3001,10 +3087,12 @@ footer p {
     class="contact"
     id="contact">
 
+
     <div class="contact-grid">
 
 
         <div class="contact-info">
+
 
             <div class="section-label">
                 Contact Us
@@ -3038,6 +3126,7 @@ footer p {
                     </svg>
 
                 </div>
+
 
                 <div>
 
@@ -3073,6 +3162,7 @@ footer p {
                     </svg>
 
                 </div>
+
 
                 <div>
 
@@ -3115,6 +3205,7 @@ footer p {
                     </svg>
 
                 </div>
+
 
                 <div>
 
@@ -3170,9 +3261,11 @@ footer p {
 
     <div class="ksa-pattern"></div>
 
+
     <h3>
 
         Riyadh
+
         <span>
             Epoxy and Painting
         </span>
@@ -3188,17 +3281,29 @@ footer p {
 
     <div class="footer-links">
 
-        <a href="#home">Home</a>
+        <a href="#home">
+            Home
+        </a>
 
-        <a href="#services">Services</a>
+        <a href="#services">
+            Services
+        </a>
 
-        <a href="#about">About</a>
+        <a href="#about">
+            About
+        </a>
 
-        <a href="#projects">Our Work</a>
+        <a href="#projects">
+            Our Work
+        </a>
 
-        <a href="#quote">Free Quote</a>
+        <a href="#quote">
+            Free Quote
+        </a>
 
-        <a href="#contact">Contact</a>
+        <a href="#contact">
+            Contact
+        </a>
 
     </div>
 
@@ -3270,7 +3375,9 @@ menuBtn.addEventListener(
 );
 
 
-/* CLOSE MOBILE MENU */
+/* =========================================================
+   CLOSE MOBILE MENU
+========================================================= */
 
 document
     .querySelectorAll("#mainNav a")
@@ -3422,6 +3529,7 @@ window.addEventListener(
 
             topBtn.style.display =
                 "none";
+
         }
 
     }
