@@ -15,7 +15,7 @@
         content="Riyadh Epoxy and Painting provides professional epoxy flooring, interior and exterior painting, wall decoration, interior finishing and waterproof painting services in Riyadh, Saudi Arabia.">
 
     <meta name="keywords"
-        content="epoxy flooring Riyadh, painting services Riyadh, interior painting Riyadh, exterior painting Riyadh, wall decoration Riyadh, interior finishing Riyadh, waterproof painting Riyadh, decorative painting Riyadh">
+        content="epoxy flooring Riyadh, epoxy painting Riyadh, painting services Riyadh, interior painting Riyadh, exterior painting Riyadh, wall decoration Riyadh, interior finishing Riyadh, waterproof painting Riyadh, decorative painting Riyadh, villa painting Riyadh">
 
     <meta name="robots" content="index, follow">
 
@@ -46,6 +46,7 @@
 
     <meta property="og:image" content="logo.png">
 
+
     <!-- TWITTER -->
 
     <meta name="twitter:card" content="summary_large_image">
@@ -57,6 +58,7 @@
         content="Professional epoxy flooring and painting services in Riyadh, Saudi Arabia.">
 
     <meta name="twitter:image" content="logo.png">
+
 
     <!-- LOCAL BUSINESS SCHEMA -->
 
@@ -784,7 +786,7 @@ section {
 
 .service-image {
 
-    height: 215px;
+    height: 230px;
 
     overflow: hidden;
 
@@ -876,87 +878,19 @@ section {
 }
 
 
-.about-grid {
+.about-content {
 
-    max-width: 1250px;
+    max-width: 1050px;
 
     margin: auto;
 
-    display: grid;
-
-    grid-template-columns:
-        .9fr 1.1fr;
-
-    gap: 65px;
-
-    align-items: center;
+    text-align: center;
 }
 
 
-.about-image {
+.about-content .section-label {
 
-    position: relative;
-}
-
-
-.about-image img {
-
-    height: 520px;
-
-    object-fit: cover;
-
-    border-radius: var(--radius);
-
-    box-shadow: var(--shadow);
-}
-
-
-.about-image::before {
-
-    content: "";
-
-    position: absolute;
-
-    left: -15px;
-
-    top: -15px;
-
-    width: 95px;
-
-    height: 95px;
-
-    border-left:
-        4px solid var(--gold);
-
-    border-top:
-        4px solid var(--gold);
-
-    z-index: 2;
-}
-
-
-.about-image::after {
-
-    content: "";
-
-    position: absolute;
-
-    right: -14px;
-
-    bottom: -14px;
-
-    width: 120px;
-
-    height: 120px;
-
-    border-right:
-        5px solid var(--gold);
-
-    border-bottom:
-        5px solid var(--gold);
-
-    border-radius:
-        0 0 15px 0;
+    margin-bottom: 10px;
 }
 
 
@@ -965,11 +899,11 @@ section {
     color: var(--navy);
 
     font-size:
-        clamp(32px,4vw,44px);
+        clamp(34px,4vw,48px);
 
     line-height: 1.2;
 
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 
@@ -977,20 +911,30 @@ section {
 
     color: var(--muted);
 
-    margin-bottom: 15px;
+    margin-bottom: 17px;
+
+    font-size: 16px;
+
+    max-width: 950px;
+
+    margin-left: auto;
+
+    margin-right: auto;
 }
 
 
 .about-list {
 
-    margin: 25px 0;
+    margin: 30px auto;
 
     display: grid;
 
     grid-template-columns:
-        1fr 1fr;
+        repeat(3,1fr);
 
     gap: 12px;
+
+    max-width: 950px;
 }
 
 
@@ -1030,7 +974,9 @@ section {
 
     gap: 12px;
 
-    margin-top: 22px;
+    margin: 28px auto;
+
+    max-width: 850px;
 }
 
 
@@ -1719,12 +1665,10 @@ footer p {
             repeat(2,1fr);
     }
 
-    .about-grid {
+    .about-list {
 
         grid-template-columns:
-            1fr 1fr;
-
-        gap: 35px;
+            repeat(2,1fr);
     }
 }
 
@@ -1797,14 +1741,9 @@ footer p {
         padding: 70px 5%;
     }
 
-    .about-grid,
     .contact-grid {
 
         grid-template-columns: 1fr;
-    }
-
-    .about-image img {
-        height: 400px;
     }
 
     .project-grid {
@@ -1890,10 +1829,6 @@ footer p {
 
     .experience {
         grid-template-columns: 1fr;
-    }
-
-    .about-image img {
-        height: 340px;
     }
 
     .quote-box {
@@ -2093,6 +2028,7 @@ footer p {
         <h1>
 
             Epoxy Flooring &
+
             <span>
                 Painting Services
             </span>
@@ -2193,7 +2129,7 @@ footer p {
 
                 <img
                     src="epoxy.jpg"
-                    alt="Professional epoxy flooring service in Riyadh"
+                    alt="Professional epoxy flooring service in Riyadh Saudi Arabia"
                     loading="lazy">
 
             </div>
@@ -2207,9 +2143,9 @@ footer p {
                 </h3>
 
                 <p>
-                    Durable and attractive epoxy flooring
-                    solutions for garages, villas, offices,
-                    shops and commercial spaces.
+                    Durable epoxy flooring solutions for garages,
+                    villas, offices, shops and commercial spaces,
+                    providing a clean and attractive surface.
                 </p>
 
             </div>
@@ -2217,7 +2153,7 @@ footer p {
         </article>
 
 
-        <!-- 02 INTERIOR PAINTING -->
+        <!-- 02 INTERIOR -->
 
         <article class="service-card">
 
@@ -2225,7 +2161,7 @@ footer p {
 
                 <img
                     src="interior.jpg"
-                    alt="Interior painting service in Riyadh"
+                    alt="Professional interior painting service in Riyadh"
                     loading="lazy">
 
             </div>
@@ -2239,9 +2175,9 @@ footer p {
                 </h3>
 
                 <p>
-                    Professional interior painting for
-                    bedrooms, majlis, living rooms, villas,
-                    apartments and offices.
+                    Professional interior painting for bedrooms,
+                    majlis, living rooms, villas, apartments and
+                    offices throughout Riyadh.
                 </p>
 
             </div>
@@ -2249,7 +2185,7 @@ footer p {
         </article>
 
 
-        <!-- 03 EXTERIOR PAINTING -->
+        <!-- 03 EXTERIOR -->
 
         <article class="service-card">
 
@@ -2257,7 +2193,7 @@ footer p {
 
                 <img
                     src="ext.jpg"
-                    alt="Exterior villa painting service in Riyadh"
+                    alt="Exterior villa painting service in Riyadh Saudi Arabia"
                     loading="lazy">
 
             </div>
@@ -2271,9 +2207,9 @@ footer p {
                 </h3>
 
                 <p>
-                    High-quality exterior painting for
-                    Saudi villas, residential buildings,
-                    commercial properties and outdoor surfaces.
+                    High-quality exterior painting for villas,
+                    residential buildings and outdoor surfaces
+                    designed for the Saudi climate.
                 </p>
 
             </div>
@@ -2289,7 +2225,7 @@ footer p {
 
                 <img
                     src="wall decor.jpg"
-                    alt="Decorative wall finishing and wall decoration in Riyadh"
+                    alt="Modern decorative wall finishing and wall decoration in Riyadh"
                     loading="lazy">
 
             </div>
@@ -2303,9 +2239,9 @@ footer p {
                 </h3>
 
                 <p>
-                    Elegant decorative wall finishes,
-                    feature walls and modern interior
-                    decoration for Saudi homes and villas.
+                    Stylish decorative wall finishes, feature
+                    walls and modern wall decoration for homes,
+                    villas, majlis and interior spaces in Riyadh.
                 </p>
 
             </div>
@@ -2320,7 +2256,7 @@ footer p {
             <div class="service-image">
 
                 <img
-                    src="int finishing.jpg"
+                    src="interior-finishing.jpg"
                     alt="Professional interior finishing work in Riyadh"
                     loading="lazy">
 
@@ -2335,8 +2271,8 @@ footer p {
                 </h3>
 
                 <p>
-                    Detailed finishing work designed to
-                    create clean, polished and refined
+                    Detailed interior finishing solutions that
+                    create clean, polished and visually appealing
                     residential and commercial spaces.
                 </p>
 
@@ -2345,15 +2281,15 @@ footer p {
         </article>
 
 
-        <!-- 06 WATERPROOF PAINTING -->
+        <!-- 06 WATERPROOF -->
 
         <article class="service-card">
 
             <div class="service-image">
 
                 <img
-                    src="ext.jpg"
-                    alt="Protective waterproof exterior painting service in Riyadh"
+                    src="waterproof.jpg"
+                    alt="Waterproof protective painting and coating service in Riyadh"
                     loading="lazy">
 
             </div>
@@ -2367,9 +2303,9 @@ footer p {
                 </h3>
 
                 <p>
-                    Protective exterior coating solutions
-                    designed to help surfaces withstand
-                    moisture and weather exposure.
+                    Protective painting and coating solutions
+                    designed to help exterior surfaces withstand
+                    moisture, humidity and weather exposure.
                 </p>
 
             </div>
@@ -2383,152 +2319,157 @@ footer p {
 
 
 <!-- =====================================================
-     ABOUT
+     ABOUT US
 ===================================================== -->
 
 <section
     class="about"
     id="about">
 
-    <div class="about-grid">
+    <div class="about-content">
 
-        <div class="about-image">
+        <div class="section-label">
+            About Our Company
+        </div>
 
-            <!-- NON-EPOXY IMAGE FOR ABOUT -->
 
-            <img
-                src="int finishing.jpg"
-                alt="Professional interior finishing work by Riyadh Epoxy and Painting"
-                loading="lazy">
+        <h2>
+            About Us
+        </h2>
+
+
+        <p>
+
+            <strong>
+                Riyadh Epoxy and Painting
+            </strong>
+            is a professional painting and finishing service
+            provider based in Riyadh, Saudi Arabia. We specialize
+            in epoxy flooring, interior painting, exterior
+            painting, decorative wall finishes, interior
+            finishing and protective waterproof painting.
+
+        </p>
+
+
+        <p>
+
+            Our goal is to provide reliable and attractive
+            painting and finishing solutions for villas, homes,
+            apartments, offices, shops and other properties
+            across Riyadh. From preparing surfaces and applying
+            professional paint finishes to installing durable
+            epoxy flooring and creating decorative feature walls,
+            we focus on clean workmanship and high-quality
+            results.
+
+        </p>
+
+
+        <p>
+
+            If you are looking for <strong>epoxy flooring in
+            Riyadh</strong>, professional <strong>interior
+            painting</strong>, <strong>exterior villa
+            painting</strong>, modern <strong>wall decoration</strong>
+            or reliable <strong>interior finishing services</strong>,
+            our team is ready to discuss your requirements and
+            provide a suitable solution for your project.
+
+        </p>
+
+
+        <p>
+
+            We understand that every property has different
+            requirements. That is why we work according to the
+            condition of the surface, the style of the space and
+            the needs of each customer. Our services are suitable
+            for both residential and commercial properties in
+            Riyadh.
+
+        </p>
+
+
+        <div class="about-list">
+
+            <div>
+                <span>✓</span>
+                Epoxy Flooring
+            </div>
+
+            <div>
+                <span>✓</span>
+                Interior Painting
+            </div>
+
+            <div>
+                <span>✓</span>
+                Exterior Painting
+            </div>
+
+            <div>
+                <span>✓</span>
+                Wall Decoration
+            </div>
+
+            <div>
+                <span>✓</span>
+                Interior Finishing
+            </div>
+
+            <div>
+                <span>✓</span>
+                Waterproof Painting
+            </div>
 
         </div>
 
 
-        <div class="about-content">
+        <div class="experience">
 
-            <div class="section-label">
-                About Our Company
-            </div>
+            <div class="experience-box">
 
+                <strong>Riyadh</strong>
 
-            <h2>
-                Professional Painting.
-                Quality Finishing.
-            </h2>
-
-
-            <p>
-
-                <strong>
-                    Riyadh Epoxy and Painting
-                </strong>
-                provides professional painting, epoxy flooring,
-                wall decoration and finishing services in Riyadh,
-                Saudi Arabia.
-
-            </p>
-
-
-            <p>
-
-                We work with homeowners, villa owners, offices,
-                shops and commercial properties looking for
-                clean, attractive and professional finishing.
-
-            </p>
-
-
-            <p>
-
-                From surface preparation and painting to
-                decorative wall treatments and epoxy flooring,
-                our focus is on neat workmanship, practical
-                solutions and attractive results.
-
-            </p>
-
-
-            <div class="about-list">
-
-                <div>
-                    <span>✓</span>
-                    Residential Projects
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Commercial Projects
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Interior & Exterior
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Epoxy Flooring
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Wall Decoration
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Finishing Solutions
-                </div>
+                <small>
+                    Service Area
+                </small>
 
             </div>
 
 
-            <div class="experience">
+            <div class="experience-box">
 
-                <div class="experience-box">
+                <strong>6+</strong>
 
-                    <strong>Riyadh</strong>
-
-                    <small>
-                        Service Area
-                    </small>
-
-                </div>
-
-
-                <div class="experience-box">
-
-                    <strong>6+</strong>
-
-                    <small>
-                        Services
-                    </small>
-
-                </div>
-
-
-                <div class="experience-box">
-
-                    <strong>Quality</strong>
-
-                    <small>
-                        Finishing Focus
-                    </small>
-
-                </div>
+                <small>
+                    Professional Services
+                </small>
 
             </div>
 
 
-            <a
-                href="#quote"
-                class="btn btn-primary">
+            <div class="experience-box">
 
-                Discuss Your Project
+                <strong>Quality</strong>
 
-            </a>
+                <small>
+                    Finishing Focus
+                </small>
+
+            </div>
 
         </div>
+
+
+        <a
+            href="#quote"
+            class="btn btn-primary">
+
+            Discuss Your Project
+
+        </a>
 
     </div>
 
@@ -2558,7 +2499,7 @@ footer p {
 
         <p>
             Examples of interior finishing, exterior painting,
-            wall decoration and flooring work.
+            wall decoration and epoxy flooring work.
         </p>
 
     </div>
@@ -2572,7 +2513,7 @@ footer p {
         <article class="project">
 
             <img
-                src="int finishing.jpg"
+                src="interior-finishing.jpg"
                 alt="Interior finishing project in Riyadh"
                 loading="lazy">
 
@@ -2644,30 +2585,6 @@ footer p {
         <article class="project">
 
             <img
-                src="interior.jpg"
-                alt="Interior painting and finishing project in Riyadh"
-                loading="lazy">
-
-            <div class="project-overlay">
-
-                <span>
-                    Painting
-                </span>
-
-                <h3>
-                    Interior Painting
-                </h3>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 05 -->
-
-        <article class="project">
-
-            <img
                 src="epoxy.jpg"
                 alt="Epoxy flooring project in Riyadh"
                 loading="lazy">
@@ -2680,6 +2597,30 @@ footer p {
 
                 <h3>
                     Professional Epoxy Flooring
+                </h3>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 05 -->
+
+        <article class="project">
+
+            <img
+                src="interior.jpg"
+                alt="Interior painting project in Riyadh"
+                loading="lazy">
+
+            <div class="project-overlay">
+
+                <span>
+                    Painting
+                </span>
+
+                <h3>
+                    Interior Painting
                 </h3>
 
             </div>
